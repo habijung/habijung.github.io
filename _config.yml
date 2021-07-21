@@ -15,14 +15,14 @@ remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
+locale                   : "en-US"
 title                    : "BIN_"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "Subtitle" # site tagline that appears below site title in masthead
 name                     : "Habin Jung"
 description              : "HabiJung's Blog"
-url                      : "https://habijung.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://habijung.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/main" # the subpath of your site, e.g. "/blog"
 repository               : "HabiJung/HabiJung" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
