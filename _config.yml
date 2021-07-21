@@ -21,11 +21,11 @@ title_separator          : "|"
 subtitle                 : "Subtitle" # site tagline that appears below site title in masthead
 name                     : "Habin Jung"
 description              : "HabiJung's Blog"
-url                      : "https://habijung.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://habijung.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/main" # the subpath of your site, e.g. "/blog"
-repository               : "HabiJung/HabiJung" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+repository               : "HabiJung/habijung.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/teaser-500x300.jpeg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/logo-88x88.jpeg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -104,7 +104,7 @@ author:
   name             : "Habin Jung"
   avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**Hello?** My name is Habin Jung."
-  location         : "Ulsan/Korea"
+  location         : "Ulsan, Korea"
   email            : "habijung0@gmail.com"
   links:
     - label: "Email"
@@ -112,13 +112,13 @@ author:
       # url: "habijung0@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://habijung.github.io"
+      url: "https://habijung.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://facebook.com/ororaskyx/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/habijung"
@@ -134,10 +134,10 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://facebook.com/ororaskyx/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://habijung.github.io/"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -281,6 +281,8 @@ defaults:
       path: ""
       type: posts
     values:
+      show_date: true
+      date_format: "%B %-d, %Y" # default date format
       layout: single
       author_profile: true
       read_time: true
