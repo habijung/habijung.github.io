@@ -9,7 +9,7 @@ main:
   - title: "Categories"
     url: /categories/
   - title: "Tags"
-    url: /tages/
+    url: /tags/
   - title: "Pages"
     url: /page-archive/
   - title: "Collections"
