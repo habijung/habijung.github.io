@@ -1,7 +1,8 @@
 ---
 title: "Splash Page"
 layout: splash
-permalink: /main2
+permalink: /main
+redirect_from: /
 date: 2016-03-23T11:48:41-04:00
 # date: 2021-07-26 23:09:29
 header:
