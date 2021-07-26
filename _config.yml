@@ -278,7 +278,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/"
       type: posts
     values:
       show_date: true
