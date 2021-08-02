@@ -22,13 +22,13 @@ Habi Jung
 | Month | Day | Contents |
 | :-: | :-: | :-: |
 | **Aug.** | 01 ~ 07 | Update blog description |
-|| 08 ~ 14 | ... |
-|| 15 ~ 21 | ... |
-|| 22 ~ 28 | ... |
+|| 08 ~ 14 | Update "Main" page |
+|| 15 ~ 21 | Update "About" page |
+|| 22 ~ 28 | Test posts, categories, tags menu |
 || 29 ~ 31 | ... |
 | **Sep.** | 01 ~ 04 | ... |
 ||||
 
 # [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 
-Update: 2021-08-01 23:23:44
+Update: 2021-08-02 22:56:51
