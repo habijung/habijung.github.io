@@ -10,5 +10,7 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Subject"
-    url: /subject/
+  - title: "Collection"
+    url: /collection-archive/
+  - title: "Topics"
+    url: /topics/
