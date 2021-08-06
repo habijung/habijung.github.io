@@ -1,6 +1,6 @@
 ---
-title: "Splash Page"
-permalink: /main/
+title: "Home Page"
+permalink: /home/
 layout: splash
 # redirect_from: /
 date: 2016-03-23T11:48:41-04:00
