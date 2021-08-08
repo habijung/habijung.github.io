@@ -286,16 +286,16 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "/"
+      path: ""
       type: posts
     values:
       show_date: true
       date_format: "%B %-d, %Y" # default date format
       layout: single
       author_profile: true
-      read_time: true
+      read_time: # true
       comments: # true
-      share: true
+      share: # true
       related: true
   # _topics
   - scope:
