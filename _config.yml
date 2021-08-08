@@ -228,6 +228,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-redirect-from
+  - jekyll-last-modified-at
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -291,7 +292,7 @@ defaults:
       type: posts
     values:
       show_date: true
-      date_format: "%B %-d, %Y" # default date format
+      date_format: "%B %-d, %Y %H:%M:%S" # default date format
       layout: single
       author_profile: true
       read_time: # true
