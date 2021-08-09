@@ -3,6 +3,7 @@ title: "About"
 permalink: /about/
 layout: single
 author_profile: true
+show_date: false
 ---
 
 ## This is "About Page".
