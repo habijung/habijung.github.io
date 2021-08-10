@@ -279,7 +279,7 @@ compress_html:
 
 # Collections
 collections:
-  topics:
+  investing:
     output: true
     permalink: /:collection/:path/
 
@@ -295,17 +295,20 @@ defaults:
       date_format: "%B %-d, %Y" # default date format
       layout: single
       author_profile: true
-      read_time: # true
-      comments: # true
-      share: # true
+      read_time: false
+      comments: false
+      share: false
       related: true
-  # _topics
+
+  # _investing
   - scope:
       path: ""
-      type: topics
+      type: investing
     values:
       show_date: true
       layout: single
       author_profile: true
-      share: true
-      comments: # true
+      read_time: false
+      comments: false
+      share: false
+      related: false
