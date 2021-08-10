@@ -5,10 +5,12 @@ main:
   - title: "About"
     url: /about/
   - title: "Posts"
-    url: /year-archive/
+    url: /posts/
   - title: "Topics"
     url: /topics
   - title: "Categories"
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "Tests"
+    url: /tests/
