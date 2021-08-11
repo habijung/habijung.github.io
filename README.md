@@ -1,7 +1,7 @@
 <center>
 <img src="./assets/images/logo-88x88.png" width="50" height="50">
 
-## [:: Blog BIN_ ::](https://habijung/github.io/)
+## [:: Blog BIN_ ::](https://habijung.github.io/)
 </center>
 <br>
 
@@ -13,9 +13,9 @@
 
 Department of Computer Science and Engineering
 
-:globe_with_meridians: [Blog BIN_](https://habijung/github.io)
+:globe_with_meridians: [Blog BIN_](https://habijung.github.io)
 
-:mailbox: [habijung0@gmail.com](habijung0@gmail.com)
+:e-mail: <habijung0@gmail.com>
 
 :octocat: [Habi Jung](https://github.com/habijung)
 
