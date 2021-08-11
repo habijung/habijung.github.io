@@ -1,34 +1,51 @@
-# [Habi Jung's BLOG](https://habijung/github.io/)
+<center>
+<img src="./assets/images/logo-88x88.png" width="50" height="50">
 
-<img src="_site/assets/images/profile.jpg" width="100" height="100">
+## [:: Blog BIN_ ::](https://habijung/github.io/)
+</center>
+<br>
 
-Habi Jung
+# 정하빈 (Habin Jung)
 
-**Hello?** My name is Habin Jung.
+<img src="./assets/images/profile-500x500.jpg" width="100" height="100">
 
-# About Blog
+**Academic Student** @[**UNIST**](https://unist.ac.kr)
+
+Department of Computer Science and Engineering
+
+:globe_with_meridians: [Blog BIN_](https://habijung/github.io)
+
+:mailbox: [habijung0@gmail.com](habijung0@gmail.com)
+
+:octocat: [Habi Jung](https://github.com/habijung)
+
+# Blog Menu
 
 | Menu | Description |
-| ---------- | ---------- |
-| Main | ... |
-| About | ... |
-| Posts | ... |
-| Categories | ... |
-| Tags | ... |
-| Pages | ... |
-| Collections | ... |
+| :--: | ----------- |
+| Main | Blog main page |
+| About | Introduce myself & blog |
+| Posts | All posts |
+| Categories | Posts categories |
+| Tags | Posts tags |
+| Investing | My investment diary & portfolio |
 
-# Blog update Table
+# Blog Update Table
+
 | Month | Day | Contents |
-| :-: | :-: | :-: |
-| **Aug.** | 01 ~ 07 | Update blog description |
-|| 08 ~ 14 | Update "Main" page |
-|| 15 ~ 21 | Update "About" page |
-|| 22 ~ 28 | Test posts, categories, tags menu |
-|| 29 ~ 31 | ... |
-| **Sep.** | 01 ~ 04 | ... |
-||||
+| :---: | :-: | :------: |
+| **Aug.** | 08 ~ 14 | Create **Investing** menu by year taxonomy |
+|| 15 ~ 21 | Update **Main** & **About** page |
+|| 22 ~ 28 | Apply **favicon** & Arrangement theme |
+|| 29 ~ 31 | Add Google Search |
+| **Sep.** | 01 ~ 04 | Add Statistic Analytics |
 
-# [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+# Reference
 
-Update: 2021-08-06 23:11:06
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)
+- [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
+- [WebFX / Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+
+---
+
+Updated : 2021-08-11 11:49
