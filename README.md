@@ -1,8 +1,7 @@
-<center>
+<div align="center">
 <img src="./assets/images/logo-88x88.png" width="50" height="50">
-
-## [:: Blog BIN_ ::](https://habijung.github.io/)
-</center>
+<h2><a href="https://habijung.github.io">[:: Blog BIN_ ::]</a></h2>
+</div>
 <br>
 
 # 정하빈 (Habin Jung)
