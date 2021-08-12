@@ -277,6 +277,10 @@ compress_html:
     envs: development
 
 
+# Build Settings
+asset_url: /assets/
+
+
 # Collections
 collections:
   investing:
@@ -312,6 +316,3 @@ defaults:
       comments: false
       share: false
       related: false
-
-# Build Settings
-asset_url: /assets
