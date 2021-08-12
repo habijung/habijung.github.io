@@ -7,7 +7,7 @@ date: 2021-08-13T01:35
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/img-pages/home-main-1600x1200.jpg
+  overlay_image: /assets/images/img-pages/home-main-compressed-1600x1200.jpg
   actions:
     - label: "About"
       url: "/about/"
