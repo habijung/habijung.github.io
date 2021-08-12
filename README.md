@@ -1,6 +1,6 @@
 <div align="center">
 <img src="./assets/images/img-settings/logo-88x88.png" width="50" height="50">
-<h2><a href="https://habijung.github.io">[Blog :: BIN_ ::]</a></h2>
+<h2><a href="https://habijung.github.io">Blog :: BIN_ ::</a></h2>
 </div>
 <br>
 
