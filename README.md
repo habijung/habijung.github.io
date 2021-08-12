@@ -1,14 +1,14 @@
 <div align="center">
-<img src="./assets/images/logo-88x88.png" width="50" height="50">
-<h2><a href="https://habijung.github.io">[:: Blog BIN_ ::]</a></h2>
+<img src="./assets/images/img-settings/logo-88x88.png" width="50" height="50">
+<h2><a href="https://habijung.github.io">[Blog :: BIN_ ::]</a></h2>
 </div>
 <br>
 
 # 정하빈 (Habin Jung)
 
-<img src="./assets/images/profile-500x500.jpg" width="100" height="100">
+<img src="./assets/images/img-settings/profile-500x500.jpg" width="100" height="100">
 
-**Academic Student** @[**UNIST**](https://unist.ac.kr)
+**Academic Student** @ [**UNIST**](https://unist.ac.kr)
 
 Department of Computer Science and Engineering
 

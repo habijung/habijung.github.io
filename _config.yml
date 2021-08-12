@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale                   : "en-US"
-title                    : "BIN_"
+title                    : ":: BIN_ ::"
 title_separator          : "|"
 subtitle                 : "Computer Graphixer" # site tagline that appears below site title in masthead
 name                     : "Habin Jung"
