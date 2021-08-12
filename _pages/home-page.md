@@ -3,7 +3,7 @@ title: "Welcome :: BIN_ ::"
 permalink: /home/
 layout: splash
 redirect_from: /
-date: 2021-08-10T13:58
+date: 2021-08-13T01:35
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

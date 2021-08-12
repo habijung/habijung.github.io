@@ -39,7 +39,7 @@ Department of Computer Science and Engineering
 || 29 ~ 31 | Add Google Search |
 | **Sep.** | 01 ~ 04 | Add Statistic Analytics |
 
-# Reference
+# References
 
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
@@ -47,4 +47,4 @@ Department of Computer Science and Engineering
 
 ---
 
-Updated : 2021-08-11 11:49
+Updated : 2021-08-13 01:35
