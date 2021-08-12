@@ -312,3 +312,6 @@ defaults:
       comments: false
       share: false
       related: false
+
+# Build Settings
+asset_url: /assets
