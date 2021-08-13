@@ -1,38 +1,72 @@
 ---
+title: "Welcome :: BIN_ ::"
+permalink: /home/
 layout: splash
-permalink: /
-hidden: true
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/img-pages/home-main-compressed-1600x1200.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
-excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
+    - label: "About"
+      url: "/about/"
+  caption: "© 2020 Iceland by Habi Jung"
+excerpt: "Thanks for visiting my blog<br>Check my profile & blog description here"
+intro: 
+  - excerpt: 'Welcome to Blog **:: BIN_ ::**<br>I hope you get the information you want my blog.<br>If you have any questions, please contact me, **<habijnug0@gmail.com>**'
+
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: assets/images/img-pages/home-gallery-1-600x400.jpeg
+    image_caption: "© [Link](https://medium.com/digital-bulletin/the-route-to-better-software-testing-d21143f1538a)"
+    alt: "placeholder image 1"
+    title: "Computer Science"
+    excerpt: "**Academic Student** @ [**UNIST**](https://unist.ac.kr)<br>Department of **Computer Science** and **Engineering**"
+
+  - image_path: /assets/images/img-pages/home-hallery-2-600x400.jpg
+    image_caption: "© [Link](https://sites.google.com/site/greenmonkeystm/home/graphics-and-visual-computing-1)"
+    alt: "placeholder image 2"
+    title: "Computer Graphics"
+    excerpt: "Interested in **Computer Graphics**, **3D Modeling**, etc."
+
+  - image_path: /assets/images/img-pages/home-gallery-3-600x400.jpg
+    image_caption: "© [Link](https://www.eba250.com/actions-projects/business-investment-platform/)"
+    alt: "placeholder image 3"
+    title: "Investment"
+    excerpt: "Being **Financially Independent**"
+
+feature_row2:
+  - image_path: /assets/images/img-pages/gallery-1-600x400.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Left Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    url: "/year-archive/"
+    btn_label: "[ Posts ]"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+
+feature_row3:
+  - image_path: /assets/images/img-pages/gallery-2-600x400.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Right Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+    url: "/categories/"
+    btn_label: "[ Categories ]"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+
+feature_row4:
+  - image_path: /assets/images/img-pages/gallery-3-600x400.jpg
+    alt: "placeholder image 2"
+    title: "Placeholder Image Center Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    url: "/tags/"
+    btn_label: "[ Tags ]"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
 ---
 
+{% include feature_row id="intro" type="center" %}
+
 {% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="feature_row4" type="center" %}
