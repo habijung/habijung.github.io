@@ -13,9 +13,9 @@
 <img src="assets/images/img-settings/profile-rounded-500x500.png" width="200" height="200">
 --->
 
-[![Blog-Badge](https://img.shields.io/badge/-Blog-brightgreen?logo=jekyll&style=flat)](https://habijung.github.io)&ensp;
+[![Blog-Badge](https://img.shields.io/badge/-Blog-70CAC3?logo=jekyll&style=flat)](https://habijung.github.io)&ensp;
 [![Gmail-Badge](https://img.shields.io/badge/-Gmail-EA4335?logo=Gmail&logoColor=white&style=flat)](mailto:habijung0@gmail.com)&ensp;
-[![GitHub-Badge](https://img.shields.io/badge/-GitHub-181717?logo=github&style=flat)](https://github.com/HabiJung)
+[![GitHub-Badge](https://img.shields.io/badge/-GitHub-181717?logo=github&style=flat)](https://github.com/habijung)
 
 **Academic Student** @ [**UNIST**](https://unist.ac.kr)
 
@@ -48,6 +48,7 @@ Department of **Computer Science** and **Engineering**
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)
 - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
 - [WebFX / Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
+- [Emoji Unicode List](https://unicode.org/emoji/charts/full-emoji-list.html)
 
 ---
-**Updated :** 2021-08-14 19:47
+**Updated :** 2021-08-14 21:05

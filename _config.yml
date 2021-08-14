@@ -20,10 +20,10 @@ title                    : ":: BIN_ ::"
 title_separator          : "|"
 subtitle                 : "Computer Graphixer" # site tagline that appears below site title in masthead
 name                     : "Habin Jung"
-description              : "HabiJung's Blog"
+description              : "Welcome :: BIN_ ::"
 url                      : "https://habijung.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "HabiJung/habijung.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "habijung/habijung.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/img-settings/teaser-500x300.jpeg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/img-settings/logo-88x88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -102,14 +102,14 @@ analytics:
 # Site Author
 author:
   name             : "Habin Jung"
-  avatar           : "/assets/images/img-settings/profile-500x500.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "**Hello?** My name is Habin Jung."
+  avatar           : "/assets/images/img-settings/profile-rounded-500x500.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Welcom :: BIN_ ::"
   location         : "Ulsan, Korea"
-  email            : "habijung0@gmail.com"
+  email            : # "habijung0@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "habijung0@gmail.com"
+      url: "mailto:habijung0@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://habijung.github.io/"
@@ -118,7 +118,7 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/ororaskyx/"
+      # url: "https://facebook.com/ororaskyx/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/habijung"
@@ -129,12 +129,15 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:habijung0@gmail.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/ororaskyx/"
+      # url: "https://facebook.com/ororaskyx/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/habijung"
