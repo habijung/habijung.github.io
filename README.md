@@ -9,7 +9,9 @@
 
 # 정하빈 (Habin Jung)
 
+<!---
 <img src="assets/images/img-settings/profile-rounded-500x500.png" width="200" height="200">
+--->
 
 [![Blog-Badge](https://img.shields.io/badge/-Blog-brightgreen?logo=jekyll&style=flat)](https://habijung.github.io)&ensp;
 [![Gmail-Badge](https://img.shields.io/badge/-Gmail-EA4335?logo=Gmail&logoColor=white&style=flat)](mailto:habijung0@gmail.com)&ensp;
@@ -48,4 +50,4 @@ Department of **Computer Science** and **Engineering**
 - [WebFX / Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ---
-**Updated :** 2021-08-14 19:40
+**Updated :** 2021-08-14 19:47
