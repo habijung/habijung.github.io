@@ -1,11 +1,11 @@
 ---
-title: # blank
+title: "About"
 permalink: /about/
 layout: single
 author_profile: true
 ---
 
-# 정하빈 (Habin Jung)
+## 정하빈 (Habin Jung)
 
 <!---
 <img src="../assets/images/img-settings/profile-rounded-500x500.png" width="200" height="200">
@@ -20,7 +20,7 @@ author_profile: true
 Department of **Computer Science** and **Engineering**
 
 
-# Intersted In
+## Intersted In
 
 &#x1F4BB; **Computer Science**
 
