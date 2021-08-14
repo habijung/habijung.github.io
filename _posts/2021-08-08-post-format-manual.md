@@ -1,14 +1,22 @@
 ---
 title: "Post Format Manual"
-categories:
-  - Rest
-tags:
-  - Rest
-header:
-  teaser: /assets/images/img-pages/gallery-1-600x400.jpg
 date: 2021-08-08T23:05
-last_modified_at: 2021-08-09T10:04
+header:
+  teaser: /assets/images/img-settings/teaser-1600x900.jpg
+  overlay_image: /assets/images/img-pages/gallery-1-600x400.jpg
+  overlay_filter: 0.5
+  caption: "© [Link](#blank)"
+toc: true
+toc_label: "Index"
+toc_sticky: true
+classes: # wide
+categories:
+  - Others
+tags:
+  - Others
+last_modified_at: 2021-08-15T00:28
 ---
+
 
 # Post format **.md** by creating
 
@@ -30,7 +38,7 @@ last_modified_at: %Y-%m-%dT%H:%M
 ---
 ```
 
-**Note :**
+# **Note :**
 
 1. title : Post title
 2. categoris : Post categories
