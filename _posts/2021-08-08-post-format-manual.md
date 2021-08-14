@@ -1,29 +1,35 @@
 ---
 title: "Post Format Manual"
-date: 2021-08-08T23:05
-header:
-  teaser: /assets/images/img-settings/teaser-1600x900.jpg
-  overlay_image: /assets/images/img-pages/gallery-1-600x400.jpg
-  overlay_filter: 0.5
-  caption: "© [Link](#blank)"
-toc: true
-toc_label: "Index"
-toc_sticky: true
+tagline: "Description blog post format"
 classes: # wide
 categories:
   - Others
 tags:
   - Others
-last_modified_at: 2021-08-15T00:28
+header:
+  teaser: /assets/images/img-posts/blank-1600x900.jpg
+  overlay_image: /assets/images/img-posts/blank-1600x900.jpg
+  overlay_filter: 0.3
+  caption: "[&#x1F517;](https://habijung.github.io)"
+toc: true
+toc_label: "Contents"
+toc_sticky: true
+date: 2021-08-08T23:05
+last_modified_at: 2021-08-15T03:19
 ---
 
 
-# Post format **.md** by creating
+![Thumbnail](/assets/images/img-posts/blank-1600x900.jpg)
+
+## Creat blog post with theme **Markdown(.md)** format
 
 ```
 ---
-title: "Example Title"
-categoris:
+# Common parameters
+title: "Title"
+tagline: "Tagline"
+classes: # wide
+categories:
   - category 1
   - category 2
   - ...
@@ -31,25 +37,70 @@ tags:
   - tag 1
   - tag 2
   - ...
+
+# Header parameters
 header:
-  teaser: Image Path
+  teaser: %PATH%
+  overlay_image: %PATH%
+  overlay_filter: 0.3
+  caption: "[&#x1F517;](#)"
+
+# Table parameters
+toc: true / false
+toc_label: "Contents"
+toc_sticky: true / false
+
+# Date parameters
 date: %Y-%m-%dT%H:%M
 last_modified_at: %Y-%m-%dT%H:%M
 ---
+
+Contents
 ```
 
-# **Note :**
+## Common parameters
 
-1. title : Post title
-2. categoris : Post categories
-3. tags : Post tags
-4. header > teaser : To assign a teaser image each post. Set the image path `/assets/images/...` as all posts files.
-5. date : Post creation date. If you want to test localhost, add +09:00. About date, `+09:00` meaning is converting **UTC** to **KST (Korea Standard Time, UTC+09:00)**.\
-6. last_modified_at : Post updated date. Also, it can be applied converting UTC.
-7. If you want to show creation and updated time, modify `/_includes/page__meta.html` and `/_includes/page__date.html` as page setting files.
-8. Date formatting table
+| Parameter | Description |
+| :-------: | ----------- |
+| title | Post title |
+| tagline | Overrides page excerpt. |
+| classes | To expand the main content to the right. |
+| categories | Post categories |
+| tags | Post tags |
 
-| Placeholder | Format | Exmaple |
+
+## Header parameters
+
+| Parameter | Description |
+| :-------: | ----------- |
+| teaser | To assign a teaser image each post. |
+| overlay_image | Header image you’d like to overlay. |
+| overlay_filter | Color/opacity to overlay on top of the header image. | caption | Copyright link |
+
+
+## Table parameters
+
+| Parameter | Description |
+| :-------: | ----------- |
+| toc | Show table of contents. |
+| toc_label | Table of contents title. |
+| toc_sticky | Stick table of contents to top of screen. |
+
+
+## Date parameters
+
+| Parameter | Description |
+| :-------: | ----------- |
+| date | Post creation time
+|      | In localhost, add `+09:00` which meaning is converting **UTC** to **KST (Korea Standard Time, UTC+09:00)**. |
+| last_modified_at | Post updated time |
+|                  | Also, it can be applied converting **UTC**. |
+
+If you want to show creation and updated time, modify `/_includes/page__meta.html` and `/_includes/page__date.html` as page setting files.
+
+### Date formatting table
+
+| Placeholder | Format | Example |
 | :---------: | :----: | :-----: |
 | %Y | Year with a century | 2021 |
 | %m | Month of the year | 08 |
@@ -57,6 +108,4 @@ last_modified_at: %Y-%m-%dT%H:%M
 | %H | Hour of the day, 24-hour clock | 22 |
 | %M | Minute of the hour | 17 |
 
----
-
-[Reference date format](https://blog.yena.io/studynote/2017/11/06/Date-Formatting.html)
+[Date format reference](https://blog.yena.io/studynote/2017/11/06/Date-Formatting.html)
