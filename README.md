@@ -1,6 +1,6 @@
 <div align="center">
-<img src="./assets/images/img-settings/logo-88x88.png" width="50" height="50">
-<br>
+<img src="assets/images/img-settings/logo-88x88.png">
+<br><br>
 
 [![Blog-Title-Badge](https://img.shields.io/badge/-::_BIN___::-70CAC3?style=for-the-badge)](https://habijung.github.io)
 <br>
@@ -9,8 +9,7 @@
 
 # 정하빈 (Habin Jung)
 
-<img src="./assets/images/img-settings/profile-500x500.jpg" width="200" height="200" style="border-radius: 30px;">
-<br>
+<img src="assets/images/img-settings/profile-rounded-500x500.png" width="200" height="200">
 
 [![Blog-Badge](https://img.shields.io/badge/-Blog-brightgreen?logo=jekyll&style=flat)](https://habijung.github.io)&ensp;
 [![Gmail-Badge](https://img.shields.io/badge/-Gmail-EA4335?logo=Gmail&logoColor=white&style=flat)](mailto:habijung0@gmail.com)&ensp;
@@ -49,4 +48,4 @@ Department of **Computer Science** and **Engineering**
 - [WebFX / Emoji Cheat Sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 ---
-**Updated :** 2021-08-14 19:10
+**Updated :** 2021-08-14 19:40
