@@ -4,6 +4,8 @@
 
 [![Blog-Title-Badge](https://img.shields.io/badge/-::_BIN___::-70CAC3?style=for-the-badge)](https://habijung.github.io)
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fhabijung.github.io&count_bg=%2370CAC3&title_bg=%23555555&icon=jekyll.svg&icon_color=%23E7E7E7&title=Visitor&edge_flat=false)](https://hits.seeyoufarm.com)
+
 <br>
 </div>
 
