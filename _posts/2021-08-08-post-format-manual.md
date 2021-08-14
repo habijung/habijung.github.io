@@ -62,11 +62,11 @@ Contents
 
 | Parameter | Description |
 | :-------: | ----------- |
-| title | Post title |
+| title | Post title. |
 | tagline | Overrides page excerpt. |
 | classes | To expand the main content to the right. |
-| categories | Post categories |
-| tags | Post tags |
+| categories | Post categories. |
+| tags | Post tags. |
 
 
 ## Header parameters
@@ -75,7 +75,8 @@ Contents
 | :-------: | ----------- |
 | teaser | To assign a teaser image each post. |
 | overlay_image | Header image you’d like to overlay. |
-| overlay_filter | Color/opacity to overlay on top of the header image. | caption | Copyright link |
+| overlay_filter | Color/opacity to overlay on top of the header image. |
+| caption | Copyright link. |
 
 
 ## Table parameters
@@ -91,10 +92,8 @@ Contents
 
 | Parameter | Description |
 | :-------: | ----------- |
-| date | Post creation time
-|      | In localhost, add `+09:00` which meaning is converting **UTC** to **KST (Korea Standard Time, UTC+09:00)**. |
-| last_modified_at | Post updated time |
-|                  | Also, it can be applied converting **UTC**. |
+| date | Post creation time. In localhost, add `+09:00` which meaning is converting **UTC** to **KST (Korea Standard Time, UTC+09:00)**. |
+| last_modified_at | Post updated time. Also, it can be applied converting **UTC**. |
 
 If you want to show creation and updated time, modify `/_includes/page__meta.html` and `/_includes/page__date.html` as page setting files.
 
@@ -108,4 +107,4 @@ If you want to show creation and updated time, modify `/_includes/page__meta.htm
 | %H | Hour of the day, 24-hour clock | 22 |
 | %M | Minute of the hour | 17 |
 
-[Date format reference](https://blog.yena.io/studynote/2017/11/06/Date-Formatting.html)
+[&#x1F517; Date format reference](https://blog.yena.io/studynote/2017/11/06/Date-Formatting.html)
