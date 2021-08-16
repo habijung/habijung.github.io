@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/images/img-settings/logo-88x88.png">
+<img src="assets/images/img-config/logo-88x88.png">
 <br><br>
 
 [![Blog-Title-Badge](https://img.shields.io/badge/-::_BIN___::-70CAC3?style=for-the-badge)](https://habijung.github.io)
@@ -51,4 +51,4 @@ Department of **Computer Science** and **Engineering**
 - [Emoji Unicode List](https://unicode.org/emoji/charts/full-emoji-list.html)
 
 ---
-**Updated :** 2021-08-14 21:05
+**Updated :** 2021-08-16 21:57
