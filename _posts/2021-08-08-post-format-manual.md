@@ -3,24 +3,24 @@ title: "Post Format Manual"
 tagline: "Description blog post format"
 classes: # wide
 categories:
-  - Jekyll Usage
+  - Jekyll Blog
 tags:
   - Blog
   - Jekyll
 header:
-  teaser: /assets/images/img-posts/blank-1600x900.jpg
-  overlay_image: /assets/images/img-posts/blank-1600x900.jpg
+  teaser: /assets/img/img-posts/blank-1600x900.jpg
+  overlay_image: /assets/img/img-posts/blank-1600x900.jpg
   overlay_filter: 0.3
   caption: "[&#x1F517;](https://habijung.github.io)"
 toc: true
 toc_label: "Contents"
 toc_sticky: true
 date: 2021-08-08T23:05
-last_modified_at: 2021-08-15T03:19
+last_modified_at: 2021-08-17T19:43
 ---
 
 
-![Thumbnail](/assets/images/img-posts/blank-1600x900.jpg)
+![Thumbnail](/assets/img/img-posts/blank-1600x900.jpg)
 
 ## Creat blog post with theme **Markdown(.md)** format
 
@@ -108,4 +108,4 @@ If you want to show creation and updated time, modify `/_includes/page__meta.htm
 | %H | Hour of the day, 24-hour clock | 22 |
 | %M | Minute of the hour | 17 |
 
-[&#x1F517; Date format reference](https://blog.yena.io/studynote/2017/11/06/Date-Formatting.html)
+[&#x1F517; Date format reference](https://blog.yena.io/studynote/2017/11/06/Date-Formatting.html){:target="_blank"}

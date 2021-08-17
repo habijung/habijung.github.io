@@ -25,7 +25,7 @@ url                      : "https://habijung.github.io" # the base hostname & pr
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "habijung/habijung.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/img-config/logo-88x88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/img/img-config/logo-88x88.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Habin Jung"
-  avatar           : "/assets/images/img-config/profile-rounded-500x500.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/img/img-config/profile-rounded-500x500.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Welcom :: BIN_ ::"
   location         : "Ulsan, Korea"
   email            : # "habijung0@gmail.com"
@@ -284,6 +284,11 @@ compress_html:
 asset_url: /assets/
 
 
+# Scripts Settings
+head_scripts:
+  - /assets/js/chart/chart.min.js
+
+
 # Collections
 collections:
   investing:
@@ -319,6 +324,3 @@ defaults:
       comments: false
       share: false
       related: false
-
-head_scripts:
-  - /assets/js/chart.min.js
