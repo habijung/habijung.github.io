@@ -20,7 +20,7 @@ last_modified_at: 2021-08-17T19:36
 
 ## Chart.js?
 
-[**Chart.js**](https://chartjs.org){:target="_blank"}는 `<canvas>` 태그를 사용하는 간단한 HTML5 차트이다. 기본적인 차트 모형인 Line, Bar, Radar, Bubble 뿐만 아니라 Stacked bar/line, Polar area, Floating Bars 등과 같은 응용 차트까지도 생성 가능하다. 해당 사이트에 들어가면 더 자세한 예시를과 사용법을 확인할 수 있다.
+[**Chart.js**](https://chartjs.org){:target="_blank"}는 `<canvas>` 태그를 사용하는 간단한 HTML5 차트이다. 기본적인 차트 모형인 Line, Bar, Radar, Bubble 뿐만 아니라 Stacked bar/line, Polar area, Floating Bars 등과 같은 응용 차트까지도 생성 가능하다. 해당 사이트에 들어가면 더 자세한 예시들과 사용법을 확인할 수 있다.
 
 
 ## Chart.js 적용
