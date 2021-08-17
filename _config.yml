@@ -319,3 +319,6 @@ defaults:
       comments: false
       share: false
       related: false
+
+head_scripts:
+  - /assets/js/chart.min.js
