@@ -16,7 +16,7 @@ toc: true
 toc_label: "Contents"
 toc_sticky: true
 date: 2021-08-08T23:05
-last_modified_at: 2021-08-17T19:43
+last_modified_at: 2021-08-17T22:48
 ---
 
 
@@ -108,4 +108,6 @@ If you want to show creation and updated time, modify `/_includes/page__meta.htm
 | %H | Hour of the day, 24-hour clock | 22 |
 | %M | Minute of the hour | 17 |
 
-[&#x1F517; Date format reference](https://blog.yena.io/studynote/2017/11/06/Date-Formatting.html){:target="_blank"}
+
+## Reference
+- [Date format reference](https://blog.yena.io/studynote/2017/11/06/Date-Formatting.html){:target="_blank"}

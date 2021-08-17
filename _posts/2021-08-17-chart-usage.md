@@ -176,7 +176,7 @@ var myChart = new Chart(
 </script>
 
 
-## References
+## Reference
 
 - [Chart.js](https://www.chartjs.org/){:target="_blank"}
 - [Jekyll 블로그 - 가로 bar chart 그리기](https://inasie.github.io/it%EC%9D%BC%EB%B0%98/jekyll-%EA%B0%80%EB%A1%9C-bar-chart/){:target="_blank"}
