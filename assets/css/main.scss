@@ -2,7 +2,45 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@charset "utf-8";
+/* font settings
+   https://evenharder.github.io/blog/jekyll-change-fonts/ */
+$sans-serif: 'Noto Sans KR';
+$monospace: 'Ubuntu Mono';
 
+
+@charset "utf-8";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes";                                                             // main partials
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);          // google font
+
+
+/* font size settings
+   https://github.com/mmistakes/minimal-mistakes/issues/1219 */
+html {
+    font-size: 14px; // change to whatever
+  
+    @include breakpoint($medium) {
+      font-size: 16px; // change to whatever
+    }
+  
+    @include breakpoint($large) {
+      font-size: 18px; // change to whatever
+    }
+  
+    @include breakpoint($x-large) {
+      font-size: 20px; // change to whatever
+    }
+}
+
+/* code highlight ```text``` settings */
+.highlight {
+    font-family: $monospace;
+    font-size: 1.05em;
+}
+
+/* code inline `text` settings */
+.language-plaintext {
+    font-family: $monospace;
+    font-size: 1.01em;
+    // background: #c0ffee;
+}
