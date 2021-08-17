@@ -3,9 +3,10 @@ title: "Post Format Manual"
 tagline: "Description blog post format"
 classes: # wide
 categories:
-  - Others
+  - Jekyll Usage
 tags:
-  - Others
+  - Blog
+  - Jekyll
 header:
   teaser: /assets/images/img-posts/blank-1600x900.jpg
   overlay_image: /assets/images/img-posts/blank-1600x900.jpg
