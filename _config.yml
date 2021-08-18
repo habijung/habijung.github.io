@@ -232,6 +232,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-redirect-from
   - jekyll-last-modified-at
+  - jekyll-target-blank
 
 # mimic GitHub Pages with --safe
 whitelist:
