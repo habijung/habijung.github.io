@@ -15,28 +15,20 @@ last_modified_at: 2021-08-19T00:39
 ## Dividend Portfolio :: July 2021 ::
 
 <div>
-  <canvas id="myChart"></canvas>
+  <canvas id="myChart" height="300"></canvas>
 </div>
 
 <!-- chart script -->
 <script>
 /* setup:1 */
-const labels = [
-  'January',
-  'February',
-  'March',
-  'April',
-  'May',
-  'June',
-  'July',
-];
+const labels = ['VOO','NVDA','MSFT','AAPL','TSM','KO','O','MCD','WMT','FTS','AWK','PG','TGT','COST','SRVR','GILD','SBUX','QQQ','JNJ','INTC','CSCO','NKE','PFE','AMZN','TSLA','GOOGL','U','ABNB','SNOW','PINS','DIS','PYPL','ADBE','AMD','SPOT','Z','F','BA','MRNA','RBLX','DAL'];
 const data = {
   labels: labels,
   datasets: [{
     label: ':: July 2021 ::',
     axis: 'y',
     fill: false,
-    data: [65, 59, 80, 81, 56, 55, 40],
+    data: [3708.00,2180.23,2123.47,2009.15,1261.04,844.47,797.65,662.17,583.12,456.80,429.34,413.39,393.76,369.44,366.96,346.79,337.22,304.11,300.33,285.43,223.25,136.96,124.17,15497.92,15410.65,4820.65,1722.82,1453.55,594.68,470.71,462.25,448.27,431.68,385.84,328.39,201.94,183.05,138.54,117.79,84.04,83.40],
     backgroundColor: [
       'rgba(255, 99, 132, 0.2)',
       'rgba(255, 159, 64, 0.2)',
@@ -67,9 +59,19 @@ const config = {
     /* options > scales */
     scales: {
       xAxes: {
+        title: {
+          display: true,
+          text: 'USD ($)',
+          align: 'end',
+          font: {
+            size: 14,
+            weight: 'bold'
+          }
+        },
         position: 'top',
         ticks: {
-          stepSize: 20
+          beginAtZero: true,
+          stepSize: 2000
         }
       }
     },
