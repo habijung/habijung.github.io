@@ -2,11 +2,11 @@
 title: "Dividend Portfolio :: July 2021 ::"
 tagline: ""
 header:
-  teaser: /assets/img/img-posts/blank-1600x900.jpg
-  overlay_image: /assets/img/img-posts/blank-1600x900.jpg
+  teaser: /assets/img/img-investing/2021-July-900x500.jpg
+  overlay_image: /assets/img/img-investing/2021-July-900x500.jpg
   overlay_filter: 0.3
 date: 2021-08-18T19:57
-last_modified_at: 2021-08-19T00:39
+last_modified_at: 2021-08-19T17:21
 ---
 
 

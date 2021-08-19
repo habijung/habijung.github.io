@@ -31,8 +31,7 @@ const config1 = {
     data: data1,
     options: {
         indexAxis: 'y',
-        scales: {
-            
+        scales: {           
             xAxes: {
                 title: {
                     display: true,
@@ -70,11 +69,14 @@ const config1 = {
                 bodyAlign: 'right',
                 callbacks: {
                     label: function(context) {
-                        return holdingsValue[context.dataIndex];
+                        var value = holdingsValue[context.dataIndex];
+                        var result = '$ ' + numberWithCommas(value.toFixed(2));
+                        return result;
                     },
                     afterLabel: function(context) {
                         var value = context.dataset.data[context.dataIndex];
-                        return value.toFixed(2)+'%';
+                        var percent = value.toFixed(2) + ' %';
+                        return percent;
                     }
                 }
             }
@@ -168,13 +170,15 @@ const config2 = {
                 /* options > plugins > tooltip > callbacks */
                 callbacks: {
                     label: function(context) {
-                        return context.dataset.data[context.dataIndex];
+                        var value = context.dataset.data[context.dataIndex];
+                        var result = '$ ' + numberWithCommas(value.toFixed(2));
+                        return result;
                     },
                     afterLabel: function(context) {
                         const reducer = (accumulator, curr) => accumulator + curr;
                         var value = context.dataset.data[context.dataIndex];
                         var sum = holdingsValue.reduce(reducer);
-                        var percent = (value/sum*100).toFixed(2)+'%';
+                        var percent = (value/sum*100).toFixed(2)+' %';
                         return percent;
                     }
                 } /* callbacks close */
@@ -188,3 +192,10 @@ var myChart2 = new Chart(
     document.getElementById('dividendsJuly2021'),
     config2
 );
+
+
+/* A number with commas as thousands separators
+   https://stackoverflow.com/questions/2901102/how-to-print-a-number-with-commas-as-thousands-separators-in-javascript */
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
