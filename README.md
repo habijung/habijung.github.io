@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/images/img-config/logo-88x88.png">
+<img src="/assets/img/img-config/logo-88x88.png">
 <br><br>
 
 [![Blog-Title-Badge](https://img.shields.io/badge/-::_BIN___::-70CAC3?style=for-the-badge)](https://habijung.github.io)
