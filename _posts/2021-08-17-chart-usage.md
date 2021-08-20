@@ -11,6 +11,9 @@ header:
   teaser: /assets/img/img-posts/chart.js.jpg
   overlay_image: /assets/img/img-posts/chart.js.jpg
   overlay_filter: 0.3
+toc: true
+toc_label: "Contents"
+toc_sticky: true
 date: 2021-08-17T17:46
 last_modified_at: 2021-08-17T19:36
 ---

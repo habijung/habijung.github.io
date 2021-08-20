@@ -49,3 +49,20 @@ html {
     font-size: 1.01em;
     // background: #c0ffee;
 }
+
+/* deactivate post title underline */
+.archive a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.archive a:hover {
+  color: #0092CA;
+}
+
+.toc__menu a {
+  &:hover {
+    color: #0092CA;
+    text-decoration: none;
+  }
+}
