@@ -3,6 +3,7 @@ title: "About"
 permalink: /about/
 layout: single-custom
 author_profile: true
+sidebar_category: true
 ---
 
 ## 정하빈 (Habin Jung)

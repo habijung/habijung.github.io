@@ -312,6 +312,7 @@ defaults:
       comments: false
       share: false
       related: true
+      sidebar_category: true
 
   # _investing
   - scope:

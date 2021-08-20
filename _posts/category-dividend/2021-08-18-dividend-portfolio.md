@@ -1,6 +1,12 @@
 ---
 title: "Dividend Portfolio :: July 2021 ::"
 tagline: ""
+categories:
+  - Dividend
+tags:
+  - Investing
+  - Dividend
+  - Monthly Report
 header:
   teaser: /assets/img/img-investing/2021-July-900x500.jpg
   overlay_image: /assets/img/img-investing/2021-July-900x500.jpg

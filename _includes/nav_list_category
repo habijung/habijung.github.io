@@ -1,0 +1,51 @@
+<!-- post counts calculation -->
+{% assign counts = site.posts | size %}
+
+<nav class="nav__list">
+    <input id="ac-toc" name="accordion-toc" type="checkbox" />
+    <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+    <ul class="nav__items">
+        <!-- all posts counts -->
+        <li>
+            <span style="font-weight: bold;">&#x1F4C1; All Posts ({{ counts }})</span>
+        </li>
+        <li>
+            <!-- categories title <span> : classification categories -->
+            <!-- categories title : Blog -->
+            <span class="nav__sub-title">Blog</span>
+            <!-- category lists <ul> -->
+            <!-- category name : Blog -->
+            <ul>
+                <!-- link each category page and display each category posts counts with category[1].size -->
+                {% for category in site.categories %}
+                    {% if category[0] == "Blog" %}
+                        <!-- set href with downcase -->
+                        <li><a href="/categories/blog/">Blog ({{ category[1].size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <!-- category name : example -->
+            <!--
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "example" %}
+                        <li><a href="/categories/example/" class="">example ({{ category[1].size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            -->
+
+            <!-- categories title : Investing -->
+            <span class="nav__sub-title">Investing</span>
+            <!-- category name : Dividend -->
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Dividend" %}
+                        <li><a href="/categories/dividend/">Dividend ({{ category[1].size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+    </ul>
+</nav>

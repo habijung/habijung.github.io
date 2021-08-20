@@ -2,10 +2,11 @@
 title: "Apply Chart.js for Jekyll Blog"
 tagline: "Chart.js의 설치와 Jekyll 블로그에 적용하기"
 categories:
-  - Jekyll Blog
+  - Blog
 tags:
   - Blog
   - Chart.js
+  - GitHub
   - Jekyll
 header:
   teaser: /assets/img/img-posts/chart.js.jpg
