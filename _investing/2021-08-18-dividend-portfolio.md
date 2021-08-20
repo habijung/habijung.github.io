@@ -14,7 +14,7 @@ last_modified_at: 2021-08-19T17:21
 
 ## Dividend Portfolio :: July 2021 ::
 
-<div style=""><canvas id="holdingsRatio" height="100"></canvas></div>
+<div><canvas id="holdingsRatio" style="margin: 0 auto;  height: 20vh; width: 50vw;"></canvas></div>
 
 <div><canvas id="dividendsJuly2021" height="200"></canvas></div>
 
