@@ -22,14 +22,14 @@ $right-sidebar-width-wide: 250px !default;   // default: 400px;
 /* font size settings
    https://github.com/mmistakes/minimal-mistakes/issues/1219 */
 html {
-    font-size: 12px; // default: 16px;
+    font-size: 16px; // default: 16px;
   
     @include breakpoint($medium) {
-      font-size: 14px; // default: 18px;
+      font-size: 16px; // default: 18px;
     }
   
     @include breakpoint($large) {
-      font-size: 16px; // default: 20px;
+      font-size: 18px; // default: 20px;
     }
   
     @include breakpoint($x-large) {
@@ -64,5 +64,17 @@ html {
   &:hover {
     color: #0092CA;
     text-decoration: none;
+  }
+}
+
+.sidebar {
+  opacity: 1;
+}
+
+.nav__items > li:nth-child(2) > ul > li {
+  // font-weight: bold;
+
+  &:hover {
+    color: #0092CA;
   }
 }

@@ -77,21 +77,21 @@ last_modified_at: 2021-08-20T16:48
 
 ## Dividen Income
 
-| Month | 2020      | 2021       | Return                                    |
-| :---: | ---:      | ---:       | -----:                                    |
-| Jan.  |           | 4.33       |                                           |
-| Feb.  |           | 7.43       |                                           |
-| Mar.  |           | 22.37      |                                           |
-| Apr.  |           | 13.77      |                                           |
-| May   | 0.70      | 9.03       | <span style="color: red">**1290%**</span> |
-| Jun.  | 0.86      | 25.03      | <span style="color: red">**2910%**</span> |
-| Jul.  | 1.73      | **25.71**  | <span style="color: red">**1486%**</span> |
-| Aug.  | 2.09      | 10.90      | <span style="color: red">**522%**</span>  |
-| Sep.  | 2.00      |            |                                           |
-| Oct.  | 1.73      |            |                                           |
-| Nov.  | 2.09      |            |                                           |
-| Dec.  | **2.99**  |            |                                           |
-| Sum   | **14.19** | **118.57** | <span style="color: red">**836%**</span>  |
+| Month | 2020      | 2021       | Return                                     |
+| :---: | ---:      | ---:       | -----:                                     |
+| Jan.  |           | 4.33       |                                            |
+| Feb.  |           | 7.43       |                                            |
+| Mar.  |           | 22.37      |                                            |
+| Apr.  |           | 13.77      |                                            |
+| May   | 0.70      | 9.03       | <span style="color: red">**1,290%**</span> |
+| Jun.  | 0.86      | 25.03      | <span style="color: red">**2,910%**</span> |
+| Jul.  | 1.73      | **25.71**  | <span style="color: red">**1,486%**</span> |
+| Aug.  | 2.09      | 10.90      | <span style="color: red">**522%**</span>   |
+| Sep.  | 2.00      |            |                                            |
+| Oct.  | 1.73      |            |                                            |
+| Nov.  | 2.09      |            |                                            |
+| Dec.  | **2.99**  |            |                                            |
+| Sum   | **14.19** | **118.57** | <span style="color: red">**836%**</span>   |
 
 Unit : USD($)
 
