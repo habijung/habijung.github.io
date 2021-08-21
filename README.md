@@ -36,11 +36,14 @@ Department of **Computer Science** and **Engineering**
 
 # Blog Upcoming Task
 
-- Create **Investing** menu by year taxonomy
+- Modify **Sidebar**
+- Register **Search Engine**
+- Add **Comment**
+- Post **CSS update record**
 - Update **Main** & **About** page
-- Apply **favicon** & Arrangement theme
-- Add Google Search
-- Add Statistic Analytics
+- Add **Statistic Analytics**
+- Modify **Post Settings**
+- Record **Blog Updated**
 
 
 # References
