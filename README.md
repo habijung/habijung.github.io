@@ -35,7 +35,7 @@ Department of **Computer Science** and **Engineering**
 
 # Blog Update History
 
-[&#1F517; Blog Update History](https://habijung.github.io/history/)
+[:link: Blog Update History](https://habijung.github.io/history/)
 
 
 # References
