@@ -1,6 +1,6 @@
 ---
-title: "&#x1F4C1; Dividend"
-permalink: /categories/dividend/
+title: "&#x1F4C1; Investing Log"
+permalink: /categories/investing-log/
 layout: archive
 author_profile: true
 sidebar_category: true
@@ -10,7 +10,7 @@ sidebar_category: true
   category without space : site.categories.example
   category with space    : site.categories['example']
 -->
-{% assign posts = site.categories.Dividend %}
+{% assign posts = site.categories['Investing Log'] %}
 {% for post in posts %}
   {% include archive-single-custom.html type=page.entries_layout %}
 {% endfor %}

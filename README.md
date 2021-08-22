@@ -24,14 +24,17 @@ Department of **Computer Science** and **Engineering**
 
 # Blog Menu
 
-| Menu | Description |
-| :--: | ----------- |
-| Home | Blog home |
-| About | Introduce myself & blog |
-| Posts | All posts |
-| Categories | Posts categories |
-| Tags | Posts tags |
-| Investing | My investment diary & portfolio |
+| Menu       | Description                     |
+| :--:       | ------------------------------- |
+| Home       | Blog home                       |
+| About      | Introduce myself & blog         |
+| Posts      | All posts                       |
+| Categories | Posts categories                |
+| Tags       | Posts tags                      |
+
+
+# Blog Update History
+
 
 
 # Blog Upcoming Task

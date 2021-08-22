@@ -10,39 +10,40 @@
             <span style="font-weight: bold;">&#x1F4C1; All Posts ({{ counts }})</span>
         </li>
         <li>
-            <!-- categories title <span> : classification categories -->
-            <!-- categories title : Blog -->
-            <span class="nav__sub-title">Blog</span>
-            <!-- category lists <ul> -->
-            <!-- category name : Blog -->
-            <ul>
-                <!-- link each category page and display each category posts counts with category[1].size -->
-                {% for category in site.categories %}
-                    {% if category[0] == "Blog" %}
-                        <!-- set href with downcase -->
-                        <li><a href="/categories/blog/">Blog ({{ category[1].size }})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+            <!-- 
+                - categories title <span> : classification categories
+                - category lists <ul>
+                - category name : example
 
-            <!-- category name : example -->
-            <!--
             <ul>
+                - link each category page and display each category posts counts with category[1].size
                 {% for category in site.categories %}
                     {% if category[0] == "example" %}
+                        - set href with downcase
                         <li><a href="/categories/example/" class="">example ({{ category[1].size }})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             -->
 
-            <!-- categories title : Investing -->
-            <span class="nav__sub-title">Investing</span>
-            <!-- category name : Dividend -->
+            <!-- categories title : Blog -->
+            <span class="nav__sub-title">Blog</span>
+            <!-- category name : GitHub Blog -->
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Dividend" %}
-                        <li><a href="/categories/dividend/">Dividend ({{ category[1].size }})</a></li>
+                    {% if category[0] == "GitHub Blog" %}
+                        <li><a href="/categories/github-blog/">GitHub Blog ({{ category[1].size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <!-- categories title : Invest -->
+            <span class="nav__sub-title">Invest</span>
+            <!-- category name : Investing Log -->
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Investing Log" %}
+                        <li><a href="/categories/investing-log/">Investing Log ({{ category[1].size }})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
