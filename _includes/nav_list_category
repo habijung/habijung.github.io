@@ -28,6 +28,10 @@
 
             <!-- categories title : Blog -->
             <span class="nav__sub-title">Blog</span>
+            <!-- category name : History -->
+            <ul>
+                <li><a href="/history/">History</a></li>
+            </ul>
             <!-- category name : GitHub Blog -->
             <ul>
                 {% for category in site.categories %}

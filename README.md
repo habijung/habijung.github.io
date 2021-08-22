@@ -35,18 +35,7 @@ Department of **Computer Science** and **Engineering**
 
 # Blog Update History
 
-
-
-# Blog Upcoming Task
-
-- Modify **Sidebar**
-- Register **Search Engine**
-- Add **Comment**
-- Post **CSS update record**
-- Update **Main** & **About** page
-- Add **Statistic Analytics**
-- Modify **Post Settings**
-- Record **Blog Updated**
+[&#1F517; Blog Update History](https://habijung.github.io/history/)
 
 
 # References

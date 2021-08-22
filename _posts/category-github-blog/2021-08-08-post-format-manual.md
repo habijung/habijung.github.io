@@ -62,52 +62,52 @@ Contents
 
 ## Common parameters
 
-| Parameter | Description |
-| :-------: | ----------- |
-| title | Post title. |
-| tagline | Overrides page excerpt. |
-| classes | To expand the main content to the right. |
-| categories | Post categories. |
-| tags | Post tags. |
+| Parameter  | Description                              |
+| :-------:  | -----------                              |
+| title      | Post title.                              |
+| tagline    | Overrides page excerpt.                  |
+| classes    | To expand the main content to the right. |
+| categories | Post categories.                         |
+| tags       | Post tags.                               |
 
 
 ## Header parameters
 
-| Parameter | Description |
-| :-------: | ----------- |
-| teaser | To assign a teaser image each post. |
-| overlay_image | Header image you’d like to overlay. |
+| Parameter      | Description                                          |
+| :-------:      | -----------                                          |
+| teaser         | To assign a teaser image each post.                  |
+| overlay_image  | Header image you’d like to overlay.                  |
 | overlay_filter | Color/opacity to overlay on top of the header image. |
-| caption | Copyright link. |
+| caption        | Copyright link.                                      |
 
 
 ## Table parameters
 
-| Parameter | Description |
-| :-------: | ----------- |
-| toc | Show table of contents. |
-| toc_label | Table of contents title. |
+| Parameter  | Description                               |
+| :-------:  | -----------                               |
+| toc        | Show table of contents.                   |
+| toc_label  | Table of contents title.                  |
 | toc_sticky | Stick table of contents to top of screen. |
 
 
 ## Date parameters
 
-| Parameter | Description |
-| :-------: | ----------- |
-| date | Post creation time. In localhost, add `+09:00` which meaning is converting **UTC** to **KST (Korea Standard Time, UTC+09:00)**. |
-| last_modified_at | Post updated time. Also, it can be applied converting **UTC**. |
+| Parameter        | Description                                                                                                                     |
+| :-------:        | -----------                                                                                                                     |
+| date             | Post creation time. In localhost, add `+09:00` which meaning is converting **UTC** to **KST (Korea Standard Time, UTC+09:00)**. |
+| last_modified_at | Post updated time. Also, it can be applied converting **UTC**.                                                                  |
 
 If you want to show creation and updated time, modify `/_includes/page__meta.html` and `/_includes/page__date.html` as page setting files.
 
 ### Date formatting table
 
-| Placeholder | Format | Example |
-| :---------: | :----: | :-----: |
-| %Y | Year with a century | 2021 |
-| %m | Month of the year | 08 |
-| %d | Day of the month, zero-padded | 09 |
-| %H | Hour of the day, 24-hour clock | 22 |
-| %M | Minute of the hour | 17 |
+| Placeholder | Format                         | Example |
+| :---------: | :----:                         | :-----: |
+| %Y          | Year with a century            | 2021    |
+| %m          | Month of the year              | 08      |
+| %d          | Day of the month, zero-padded  | 09      |
+| %H          | Hour of the day, 24-hour clock | 22      |
+| %M          | Minute of the hour             | 17      |
 
 
 ## Reference
