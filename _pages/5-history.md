@@ -8,9 +8,18 @@ sidebar_category: true
 
 ## Blog Update History
 
-| Name | Release         |
-| :--- | :-----:         |
-| test | 07.01.2021      |
+| Name                                 | Release         |
+| :---                                 | :-----:         |
+| Create repository                    | 07.19.2021      |
+| Apply Jekyll with `Minimal Mistakes` | 07.20.2021      |
+| Create home page                     | 07.25.2021      |
+| Update blog logo, profile            | 08.03.2021      |
+| First post                           | 08.08.2021      |
+| Update favicon                       | 08.12.2021      |
+| Update home page URL                 | 08.13.2021      |
+| Register domain `habijung.xyz`       | 08.19.2021      |
+| Add sidebar by categories            | 08.20.2021      |
+| Register Google search console       | 08.22.2021      |
 
 
 ## Blog Updating Task
@@ -21,4 +30,3 @@ sidebar_category: true
 4. Post CSS update log & code
 5. Add statistic analytics with Google
 6. Update Main, About page
-7. Update blog update history
