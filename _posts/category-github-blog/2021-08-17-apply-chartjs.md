@@ -1,5 +1,5 @@
 ---
-title: ":: GitHub Blog :: Apply Chart.js for Jekyll"
+title: "[GitHub Blog] Apply Chart.js for Jekyll"
 tagline: "Chart.js의 설치와 Jekyll 블로그에 적용하기"
 classes: # wide
 categories:

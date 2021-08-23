@@ -1,5 +1,5 @@
 ---
-title: ":: GitHub Blog :: Post Format Manual"
+title: "[GitHub Blog] Post Format Manual"
 tagline: "Description blog post format"
 classes: # wide
 categories:
