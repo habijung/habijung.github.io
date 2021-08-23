@@ -1,5 +1,5 @@
 ---
-title: ":: July 2021 :: Monthly Investing Log"
+title: ":: July 2021 :: Dividend Portfolio"
 tagline: ""
 classes: # wide
 categories:
@@ -7,7 +7,7 @@ categories:
 tags:
   - Dividend
   - Investing
-  - Monthly Log
+  - Portfolio
 header:
   teaser: /assets/img/img-investing/2021-July-900x500.jpg
   overlay_image: /assets/img/img-investing/2021-July-900x500.jpg
@@ -16,7 +16,7 @@ toc: true
 toc_label: "Contents"
 toc_sticky: true
 date: 2021-08-18T19:57
-last_modified_at: 2021-08-20T16:48
+last_modified_at: 2021-08-23T11:30
 ---
 
 
@@ -28,7 +28,7 @@ last_modified_at: 2021-08-20T16:48
 
 
 
-## Dividend Portfolio :: July 2021 ::
+## :: July 2021 :: Dividend Portfolio
 
 키움증권에서는 새 계좌 개설을 하면 해외 주식 거래를 위한 $40 제공 이벤트가 상시 오픈되어 있다. 이를 통해서 새 계좌를 가입하고 $40를 받으면서 시작한 최초 거래는 2020년 04월 13일에 웰스파고(WFC)를 $32.46에 매수한 것이다.
 
@@ -59,7 +59,7 @@ last_modified_at: 2021-08-20T16:48
 
 
 
-## Dividens Portfolio
+## Dividend Portfolio
 
 ※ 차트 데이터에 마우스를 가져가면 자세한 데이터를 확인할 수 있습니다.
 {: .notice--info}
@@ -76,10 +76,10 @@ last_modified_at: 2021-08-20T16:48
 
 
 
-## Dividen Income
+## Dividend Income
 
-| Month | 2020      | 2021       | Return                                     |
-| :---: | ---:      | ---:       | -----:                                     |
+| Month | 2020      | 2021       | YoY                                        |
+| :---: | ---:      | ---:       | --:                                        |
 | Jan.  |           | 4.33       |                                            |
 | Feb.  |           | 7.43       |                                            |
 | Mar.  |           | 22.37      |                                            |
