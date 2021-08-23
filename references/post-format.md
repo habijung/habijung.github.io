@@ -13,8 +13,8 @@ header:
 toc: true
 toc_label: "Contents"
 toc_sticky: true
-date: 9999-99-99T99:99
-last_modified_at: 9999-99-99T99:99
+date: 2021-01-01T00:00
+last_modified_at: 2021-01-01T00:01
 ---
 
 
