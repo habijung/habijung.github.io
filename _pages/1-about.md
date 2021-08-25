@@ -23,12 +23,14 @@ Department of **Computer Science** and **Engineering**
 
 ## Intersted In
 
-&#x1F4BB; **Computer Science**
-
 &#x1F3AE; **Computer Graphics**
+
+&#x1F3A7; **Listening to Music, especially Pop and Orchestra**
+
+&#x1F3BC; **Playing the Flute**
 
 &#x1F4C8; **Investment**
 
 
 ---
-**Updated :** 2021-08-17 22:57
+**Updated :** 2021-08-25 23:11
