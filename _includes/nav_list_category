@@ -41,6 +41,17 @@
                 {% endfor %}
             </ul>
 
+            <!-- categories title : Algorithm -->
+            <span class="nav__sub-title">Algorithm</span>
+            <!-- category name : programmers -->
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "programmers" %}
+                        <li><a href="/categories/programmers/">programmers ({{ category[1].size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
             <!-- categories title : Invest -->
             <span class="nav__sub-title">Invest</span>
             <!-- category name : Investing Log -->
