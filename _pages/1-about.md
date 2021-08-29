@@ -1,16 +1,12 @@
 ---
 title: "About"
 permalink: /about/
-layout: single-custom
+layout: single-about
 author_profile: true
 sidebar_category: true
 ---
 
 ## 정하빈 (Habin Jung)
-
-<!---
-<img src="../assets/images/img-settings/profile-rounded-500x500.png" width="200" height="200">
---->
 
 [![Blog-Badge](https://img.shields.io/badge/-Blog-70CAC3?logo=jekyll&style=flat)](https://habijung.github.io){:target="_blank"}&ensp;
 [![Gmail-Badge](https://img.shields.io/badge/-Gmail-EA4335?logo=Gmail&logoColor=white&style=flat)](mailto:habijung0@gmail.com){:target="_blank"}&ensp;
@@ -25,11 +21,25 @@ Department of **Computer Science** and **Engineering**
 
 &#x1F3AE; **Computer Graphics**
 
-&#x1F3A7; **Listening to Music, especially Pop and Orchestra**
-
 &#x1F3BC; **Playing the Flute**
 
 &#x1F4C8; **Investment**
+
+
+## Education
+
+**2015.03 -**
+
+Academic Student, Department of Computer Science and Engineering (CSE), Ulsan National Institute of Science and Technology (UNIST)
+
+
+## Experience
+
+
+## Activities
+
+
+## Skills
 
 
 ---

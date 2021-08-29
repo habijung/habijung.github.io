@@ -183,3 +183,20 @@ html {
     background: #333;
   }
 }
+
+
+/* About page */
+.page__about__content {
+  h2:nth-child(1) {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin-bottom: 5px;
+    font-size: 0.95em;
+  }
+
+  p:nth-child(2) {
+    margin-bottom: 20px;
+  }
+}
