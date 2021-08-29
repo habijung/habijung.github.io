@@ -2,6 +2,12 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+
+:root {
+  --main-color: #0092CA
+}
+
+
 /* font settings
    https://evenharder.github.io/blog/jekyll-change-fonts/ */
 $sans-serif: 'Noto Sans KR';
@@ -61,13 +67,13 @@ html {
 }
 
 .archive a:hover {
-  color: #0092CA;
+  color: var(--main-color);
 }
 
 .toc__menu a {
   &:hover {
-    color: #0092CA;
     text-decoration: none;
+    color: var(--main-color);
   }
 }
 
@@ -81,7 +87,7 @@ html {
   margin: 5px auto;
 
   &:hover {
-    color: #0092CA;
+    color: var(--main-color);
   }
 }
 
@@ -101,9 +107,15 @@ html {
 
     @include breakpoint($large) {
       padding: 3px;
-      border: 1px solid #0092CA;
+      border: 1px solid var(--main-color);
     }
   }
+}
+
+.author__urls a:hover {
+    text-decoration: none;
+    color: var(--main-color);
+    transition-duration: 10ms;
 }
 
 

@@ -25,9 +25,8 @@ sidebar_category: true
 
 ## Blog Updating Task
 
-1. Modify sidebar width
-2. Register search console at Naver, Daum
-3. Post CSS update log & code
-4. Add statistic analytics with Google
-5. Update Main, About page
-6. Post domain registration
+1. Register search console at Naver, Daum
+2. Post CSS update log & code
+3. Add statistic analytics with Google
+4. Update Main, About page
+5. Post domain registration
