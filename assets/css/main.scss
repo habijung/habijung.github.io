@@ -7,12 +7,14 @@
 $sans-serif: 'Noto Sans KR';
 $monospace: 'Ubuntu Mono';
 
+
 /* sidebar grid size */
 $right-sidebar-width-narrow: 150px !default; // default: 200px;
 $right-sidebar-width: 200px !default;        // default: 300px;
 $right-sidebar-width-wide: 250px !default;   // default: 400px;
 
 
+/* import */
 @charset "utf-8";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes";                                                             // main partials
@@ -37,6 +39,7 @@ html {
     }
 }
 
+
 /* code highlight ```text``` settings */
 .highlight {
     font-family: $monospace;
@@ -49,6 +52,7 @@ html {
     font-size: 1.01em;
     // background: #c0ffee;
 }
+
 
 /* deactivate post title underline */
 .archive a {
@@ -67,6 +71,7 @@ html {
   }
 }
 
+
 /* sidebar option */
 .sidebar {
   opacity: 1;
@@ -77,6 +82,27 @@ html {
 
   &:hover {
     color: #0092CA;
+  }
+}
+
+.author__avatar {
+  width: 50px;
+  height: 50px;
+
+  @include breakpoint($large) {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  img {
+    max-width: 150px;
+    border-radius: 25%;
+
+    @include breakpoint($large) {
+      padding: 3px;
+      border: 1px solid #0092CA;
+    }
   }
 }
 
@@ -130,7 +156,6 @@ html {
   opacity: 1;
 }
 
-/* Keyframes */
 @-webkit-keyframes fill {
   0% {
     width: 0%;
