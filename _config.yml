@@ -105,51 +105,30 @@ author:
   avatar           : "/assets/img/img-config/profile-rounded-500x500.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Welcom :: BIN_ ::"
   location         : "Ulsan, Korea"
-  email            : # "habijung0@gmail.com"
+  email            : # "email"
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-envelope-open-text"
       url: "mailto:habijung0@gmail.com"
     - label: "Website"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-home"
       url: "https://habijung.github.io/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/ororaskyx/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-github-alt"
       url: "https://github.com/habijung"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fas fa-fw fa-2x fa-envelope-open-text"
       url: "mailto:habijung0@gmail.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/ororaskyx/"
+    - label: "Website"
+      icon: "fas fa-fw fa-2x fa-home"
+      url: "https://habijung.github.io/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-fw fa-2x fa-github-alt"
       url: "https://github.com/habijung"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
 
 
 # Reading Files
