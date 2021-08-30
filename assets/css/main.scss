@@ -200,3 +200,17 @@ html {
     margin-bottom: 20px;
   }
 }
+
+.about-row {
+  display: flex;
+}
+
+.about-row-period {
+  white-space: nowrap;
+  margin-right: 4em;
+  font-weight: bold;
+}
+
+.about-row-content {
+  font-weight: bold;
+}

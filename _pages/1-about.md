@@ -6,7 +6,7 @@ author_profile: true
 sidebar_category: true
 ---
 
-## 정하빈 (Habin Jung)
+## <i class="fas fa-fw fa-id-badge"></i> 정하빈 (Habin Jung)
 
 [![Blog-Badge](https://img.shields.io/badge/-Blog-70CAC3?logo=jekyll&style=flat)](https://habijung.github.io){:target="_blank"}&ensp;
 [![Gmail-Badge](https://img.shields.io/badge/-Gmail-EA4335?logo=Gmail&logoColor=white&style=flat)](mailto:habijung0@gmail.com){:target="_blank"}&ensp;
@@ -17,7 +17,7 @@ sidebar_category: true
 Department of **Computer Science** and **Engineering**
 
 
-## Intersted In
+## <i class="fas fa-fw fa-gamepad"></i> Intersted In
 
 &#x1F3AE; **Computer Graphics**
 
@@ -26,17 +26,18 @@ Department of **Computer Science** and **Engineering**
 &#x1F4C8; **Investment**
 
 
-## Education
+## <i class="fas fa-fw fa-graduation-cap"></i> Education
 
-**2015.03 -**
-
-Academic Student, Department of Computer Science and Engineering (CSE), Ulsan National Institute of Science and Technology (UNIST)
-
-
-## Experience
+<div class="about-row">
+    <div class="about-row-period">2015-03</div>
+    <div><span class="about-row-content">Academic Student</span>, Department of Computer Science and Engineering (CSE), Ulsan National Institute of Science and Technology (UNIST)</div>
+</div>
 
 
-## Activities
+## <i class="fas fa-fw fa-briefcase"></i> Experience
+
+
+## <i class="fas fa-fw fa-paper-plane"></i> Activities
 
 
 ## Skills
