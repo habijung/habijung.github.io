@@ -17,7 +17,7 @@
 [![Gmail-Badge](https://img.shields.io/badge/-Gmail-EA4335?logo=Gmail&logoColor=white&style=flat)](mailto:habijung0@gmail.com)&ensp;
 [![GitHub-Badge](https://img.shields.io/badge/-GitHub-181717?logo=github&style=flat)](https://github.com/habijung)
 
-**Academic Student** @ [**UNIST**](https://unist.ac.kr)
+**Academic Student** @[**UNIST**](https://unist.ac.kr)
 
 Department of **Computer Science** and **Engineering**
 

@@ -12,7 +12,7 @@ sidebar_category: true
 [![Gmail-Badge](https://img.shields.io/badge/-Gmail-EA4335?logo=Gmail&logoColor=white&style=flat)](mailto:habijung0@gmail.com){:target="_blank"}&ensp;
 [![GitHub-Badge](https://img.shields.io/badge/-GitHub-181717?logo=github&style=flat)](https://github.com/habijung){:target="_blank"}
 
-**Academic Student** @ [**UNIST**](https://unist.ac.kr){:target="_blank"}
+**Academic Student** @[**UNIST**](https://unist.ac.kr){:target="_blank"}
 
 Department of **Computer Science** and **Engineering**
 
@@ -37,11 +37,14 @@ Department of **Computer Science** and **Engineering**
 ## <i class="fas fa-fw fa-briefcase"></i> Experience
 
 
+## <i class="fas fa-fw fa-code-branch"></i> Projects
+
+
 ## <i class="fas fa-fw fa-paper-plane"></i> Activities
 
 
-## Skills
+## <i class="fas fa-fw fa-bolt"></i> Skills
 
 
 ---
-**Updated :** 2021-08-30 01:18
+**Updated :** 2021-08-30 23:46
