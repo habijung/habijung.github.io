@@ -1,0 +1,33 @@
+<div class="about-row">
+    <div class="about-row-period">2019.07 - 2020.01</div>
+    <div class="about-row-content">
+        <strong>Research Intern</strong>, OMNIA, CSE, UNIST<br>
+        <ul class="about-row-list">
+            <li>Study of Computer Architecture & Computer Operating System</li>
+        </ul>
+    </div>
+</div>
+
+<div class="about-row">
+    <div class="about-row-period">2018.08 - 2019.06</div>
+    <div class="about-row-content">
+        <strong>Co-Founder & Web Developer</strong>, HoneyParking<br>
+        <ul class="about-row-list">
+            <li>Service that allows to reserve and freely use all affiliated parking zone by getting a monthly pass.</li>
+            <li>Develop HoneyParking web page.</li>
+            <li>Manage budget expenses within the team.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="about-row">
+    <div class="about-row-period">2016.09 - 2017.08</div>
+    <div class="about-row-content">
+        <strong>Research Intern</strong>, U-Loop Team, Department of Mechanical and Nuclear Engineering (MNE), UNIST<br>
+        <ul class="about-row-list">
+            <li>Define and regulation the starting concept of ‘Hyper Loop’ type.</li>
+            <li>Design the modeling of the train (or body).</li>
+            <li>Study of levitation system & linear induction motor system.</li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<div class="about-row">
+    <div class="about-row-period">Programming</div>
+    <div class="about-row-content">
+        <strong>C/C++, Git, OpenGL, Python, Django, HTML/CSS, MATLAB</strong>
+    </div>
+</div>
+
+<div class="about-row">
+    <div class="about-row-period">Modeling</div>
+    <div class="about-row-content">
+        <strong>Blender, SolidWorks</strong>
+    </div>
+</div>
+
+<div class="about-row">
+    <div class="about-row-period">Working Tools</div>
+    <div class="about-row-content">
+        <strong>MS Office</strong>
+    </div>
+</div>
+
+<div class="about-row">
+    <div class="about-row-period">Design Tools</div>
+    <div class="about-row-content">
+        <strong>Photoshop</strong>
+    </div>
+</div>
