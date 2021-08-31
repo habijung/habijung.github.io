@@ -121,13 +121,13 @@ author:
 footer:
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-2x fa-envelope-open-text"
+      icon: "fas fa-fw fa-envelope-open-text"
       url: "mailto:habijung0@gmail.com"
     - label: "Website"
-      icon: "fas fa-fw fa-2x fa-home"
+      icon: "fas fa-fw fa-home"
       url: "https://habijung.github.io/"
     - label: "GitHub"
-      icon: "fab fa-fw fa-2x fa-github-alt"
+      icon: "fab fa-fw fa-github-alt"
       url: "https://github.com/habijung"
 
 

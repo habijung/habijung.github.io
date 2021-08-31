@@ -25,8 +25,6 @@ sidebar_category: true
 
 ## Blog Updating Task
 
-1. Register search console at Naver, Daum
-2. Post CSS update log & code
-3. Add statistic analytics with Google
-4. Update Main, About page
-5. Post domain registration
+1. Update Main, About page
+2. Post domain registration
+3. Post CSS update log & code

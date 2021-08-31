@@ -192,9 +192,9 @@ html {
     margin-top: 20px;
   }
   
-  p {
+  p, .about-row {
     margin-bottom: 5px;
-    font-size: 0.95em;
+    font-size: 0.9em;
   }
 
   p:nth-child(2) {
@@ -208,12 +208,22 @@ html {
 
 .about-row-period {
   white-space: nowrap;
-  margin-right: 4em;
+  flex-basis: 20%;
+  // margin-right: 4em;
   font-weight: bold;
 }
 
 .about-row-content {
-  font-weight: bold;
+  flex-basis: 80%;
+}
+
+.about-row-list {
+  margin: 5px auto;
+
+  & > li {
+    margin: 0;
+    list-style-type: initial;
+  }
 }
 
 
