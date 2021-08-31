@@ -28,3 +28,5 @@ sidebar_category: true
 1. Update Main, About page
 2. Post domain registration
 3. Post CSS update log & code
+4. Register search console at Naver, Daum
+5. Add statistic analytics with Google
