@@ -204,12 +204,12 @@ html {
 
 .about-row {
   display: flex;
+  margin-bottom: 30px !important;
 }
 
 .about-row-period {
   white-space: nowrap;
   flex-basis: 20%;
-  // margin-right: 4em;
   font-weight: bold;
 }
 

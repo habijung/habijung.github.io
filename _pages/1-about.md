@@ -29,7 +29,7 @@ Department of **Computer Science** and **Engineering**
 ## <i class="fas fa-fw fa-graduation-cap"></i> Education
 
 <div class="about-row">
-    <div class="about-row-period">2015-03 -</div>
+    <div class="about-row-period">2015.03 -</div>
     <div class="about-row-content"><strong>Academic Student</strong>, Department of Computer Science and Engineering (CSE), Ulsan National Institute of Science and Technology (UNIST)</div>
 </div>
 
@@ -37,7 +37,7 @@ Department of **Computer Science** and **Engineering**
 ## <i class="fas fa-fw fa-briefcase"></i> Experience
 
 <div class="about-row">
-    <div class="about-row-period">2018-08 -<br>2019-06</div>
+    <div class="about-row-period">2018.08 -<br>2019.06</div>
     <div class="about-row-content">
         <strong>Co-Founder & Web Developer</strong>, HoneyParking<br>
         <ul class="about-row-list">
@@ -49,7 +49,7 @@ Department of **Computer Science** and **Engineering**
 </div>
 
 <div class="about-row">
-    <div class="about-row-period">2016-09 -<br>2017-08</div>
+    <div class="about-row-period">2016.09 -<br>2017.08</div>
     <div class="about-row-content">
         <strong>Research Intern</strong>, U-Loop Team, Department of Mechanical and Nuclear Engineering (MNE), UNIST<br>
         <ul class="about-row-list">
@@ -72,13 +72,18 @@ Department of **Computer Science** and **Engineering**
 ## <i class="fas fa-fw fa-paper-plane"></i> Activities
 
 <div class="about-row">
-    <div class="about-row-period">2018-06 -<br>2018-08</div>
+    <div class="about-row-period">2018.06 -<br>2018.08</div>
     <div class="about-row-content"><strong>Big data analysis expert for non-majors</strong>, CCEI Ulsan</div>
 </div>
 
 <div class="about-row">
     <div class="about-row-period">2017 -<br>2019</div>
     <div class="about-row-content"><strong>LIKE LION 5th</strong>, Programming education program based on Python & Django</div>
+</div>
+
+<div class="about-row">
+    <div class="about-row-period">2015 -<br>2019</div>
+    <div class="about-row-content"><strong>CZARDAS</strong>, Flute, UNIST Orchestra Club</div>
 </div>
 
 
@@ -88,4 +93,4 @@ C/C++, Python, Django, Git, OpenGL
 
 
 ---
-**Updated :** 2021-08-30 23:46
+**Updated :** 2021-08-31 13:56
