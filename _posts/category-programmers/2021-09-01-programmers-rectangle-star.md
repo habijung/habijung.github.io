@@ -15,7 +15,7 @@ toc: true
 toc_label: "Contents"
 toc_sticky: true
 date: 2021-09-01T20:43
-last_modified_at: 2021-09-01T20:43
+last_modified_at: 2021-09-01T21:28
 ---
 
 
@@ -46,7 +46,7 @@ last_modified_at: 2021-09-01T20:43
 입력
 
 ```
-`5 3`
+5 3
 ```
 
 출력
