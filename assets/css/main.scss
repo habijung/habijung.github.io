@@ -186,7 +186,7 @@ html {
 }
 
 
-/* About page */
+/* About page settings */
 .page__about__content {
   h2:nth-child(1) {
     margin-top: 20px;
@@ -227,6 +227,13 @@ html {
 }
 
 
+/* Main page settings */
+.archive__item-teaser {
+  border: 1px solid #999;
+  box-shadow: 5px 5px 10px #666;
+}
+
+
 /* blog skin settings */
 html, .greedy-nav {
   background: #FDFDFD;
@@ -234,13 +241,15 @@ html, .greedy-nav {
 
 .btn--user {
   background-color: $color-theme;
+  color: #fff;
 
   &:visited {
     color: #fff;
   }
 
   &:hover {
-    background-color: mix(#000, $color-theme, 30%);
+    background-color: mix(#000, $color-theme, 20%);
+    color: #fff;
   }
 }
 
@@ -248,11 +257,25 @@ html, .greedy-nav {
   color: $color-theme;
 
   &:hover {
-    color: #666;
+    color: #999;
+    transition: all 100ms;
   }
 }
 
 .page__footer {
   background: $color-theme;
   color: #333;
+}
+
+a {
+  text-decoration-line: none;
+
+  &:hover {
+    text-decoration-line: none;
+  }
+}
+
+.page__footer a:hover {
+  color: #000;
+  text-decoration-line: none;  
 }
