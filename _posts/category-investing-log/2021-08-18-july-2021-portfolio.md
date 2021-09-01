@@ -9,8 +9,8 @@ tags:
   - Investing
   - Portfolio
 header:
-  teaser: /assets/img/img-investing/2021-July-900x500.jpg
-  overlay_image: /assets/img/img-investing/2021-July-900x500.jpg
+  teaser: /assets/img/img-posts/img-investing-log/2021-July-900x500.jpg
+  overlay_image: /assets/img/img-posts/img-investing-log/2021-July-900x500.jpg
   overlay_filter: 0.3
 toc: true
 toc_label: "Contents"
@@ -21,7 +21,7 @@ last_modified_at: 2021-08-23T11:30
 
 
 
-![Thumnail](/assets/img/img-posts/blank-1600x900.jpg)
+![Thumnail](/assets/img/img-config/blank-1600x900.jpg)
 
 ※ 모바일 화면에서는 그래프가 정상적으로 보이지 않을 수 있으니 가로 화면으로 보는 것을 권장합니다.
 {: .notice--info}

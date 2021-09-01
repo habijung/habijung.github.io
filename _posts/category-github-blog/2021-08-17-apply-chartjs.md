@@ -10,8 +10,8 @@ tags:
   - GitHub
   - Jekyll
 header:
-  teaser: /assets/img/img-posts/chart.js.jpg
-  overlay_image: /assets/img/img-posts/chart.js.jpg
+  teaser: /assets/img/img-posts/img-github-blog/chart.js.jpg
+  overlay_image: /assets/img/img-posts/img-github-blog/chart.js.jpg
   overlay_filter: 0.3
 toc: true
 toc_label: "Contents"
@@ -21,7 +21,7 @@ last_modified_at: 2021-08-17T19:36
 ---
 
 
-[![Thumbnail](/assets/img/img-posts/chart.js.jpg)](https://www.chartjs.org/){:target="_blank"}
+[![Thumbnail](/assets/img/img-posts/img-github-blog/chart.js.jpg)](https://www.chartjs.org/){:target="_blank"}
 
 ## Chart.js?
 

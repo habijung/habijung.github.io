@@ -9,8 +9,8 @@ tags:
   - GitHub
   - Jekyll
 header:
-  teaser: /assets/img/img-posts/blank-1600x900.jpg
-  overlay_image: /assets/img/img-posts/blank-1600x900.jpg
+  teaser: /assets/img/img-config/blank-1600x900.jpg
+  overlay_image: /assets/img/img-config/blank-1600x900.jpg
   overlay_filter: 0.3
 toc: true
 toc_label: "Contents"
@@ -20,7 +20,7 @@ last_modified_at: 2021-08-23T18:09
 ---
 
 
-[![Thumbnail](/assets/img/img-posts/blank-1600x900.jpg)](https://habijung.github.io/){: target="_blank"}
+[![Thumbnail](/assets/img/img-config/blank-1600x900.jpg)](https://habijung.github.io/){: target="_blank"}
 
 
 ※ 해당 글의 방법을 적용하기 위해서는 `jekyll --version >= 4.1`만 가능합니다. 현재 github.io의 `jekyll --version == 3.9`이기 때문에 해당 방법을 적용할 수 없습니다. `git commit`을 하고 나서 알았기 때문에 업데이트를 기다릴 수 밖에 없을 것 같습니다..

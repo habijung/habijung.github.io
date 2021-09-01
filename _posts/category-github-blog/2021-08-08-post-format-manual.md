@@ -9,8 +9,8 @@ tags:
   - GitHub
   - Jekyll
 header:
-  teaser: /assets/img/img-posts/blank-1600x900.jpg
-  overlay_image: /assets/img/img-posts/blank-1600x900.jpg
+  teaser: /assets/img/img-config/blank-1600x900.jpg
+  overlay_image: /assets/img/img-config/blank-1600x900.jpg
   overlay_filter: 0.3
   caption: "[&#x1F517;](https://habijung.github.io)"
 toc: true
@@ -21,7 +21,7 @@ last_modified_at: 2021-08-19T02:49
 ---
 
 
-![Thumbnail](/assets/img/img-posts/blank-1600x900.jpg)
+![Thumbnail](/assets/img/img-config/blank-1600x900.jpg)
 
 ## Post Markdown(.md) format
 
