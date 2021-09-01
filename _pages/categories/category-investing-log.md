@@ -8,7 +8,7 @@ sidebar_category: true
 
 <!--
   category without space : site.categories.example
-  category with space    : site.categories['example']
+  category with space    : site.categories['example category']
 -->
 {% assign posts = site.categories['Investing Log'] %}
 {% for post in posts %}
