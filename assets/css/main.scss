@@ -205,6 +205,20 @@ html {
 .about-row {
   display: flex;
   margin-bottom: 30px !important;
+
+  flex-direction: column;
+  
+  @include breakpoint($medium) {
+    flex-direction: row;
+  }
+
+  @include breakpoint($large) {
+    flex-direction: row;
+  }
+
+  @include breakpoint($x-large) {
+    flex-direction: row;
+  }
 }
 
 .about-row-period {
