@@ -78,7 +78,7 @@ last_modified_at: 2021-08-23T11:30
 
 ## Dividend Income
 
-| Month | 2020      | 2021       | YoY                                        |
+| Month | 2020      | 2021       | MoM                                        |
 | :---: | ---:      | ---:       | --:                                        |
 | Jan.  |           | 4.33       |                                            |
 | Feb.  |           | 7.43       |                                            |
