@@ -21,6 +21,7 @@ sidebar_category: true
 | Add sidebar by categories                                                                              | 08.20.2021      |
 | Register Google search console                                                                         | 08.22.2021      |
 | Apply comments by [utterances](https://utteranc.es/){: target="_blank"}                                | 08.24.2021      |
+| Change blog skin color #70CAC3                                                                         | 08.31.2021      |
 
 
 ## Blog Updating Task
