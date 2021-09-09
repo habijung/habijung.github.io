@@ -293,3 +293,26 @@ a {
   color: #000;
   text-decoration-line: none;  
 }
+
+
+/* pagination button settings */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    color: mix(#000, $color-theme, 20%);
+  }
+
+  &--pager {
+    width: 25%;
+    height: 15%;
+
+    &:hover {
+      z-index: 1;
+      background: $color-theme;
+      border-color: $color-theme;
+    }
+  }
+}
