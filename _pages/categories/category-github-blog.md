@@ -12,5 +12,5 @@ sidebar_category: true
 -->
 {% assign posts = site.categories['GitHub Blog'] %}
 {% for post in posts %}
-  {% include archive-single-custom.html type=page.entries_layout %}
+  {% include archive-single-category.html type=page.entries_layout %}
 {% endfor %}

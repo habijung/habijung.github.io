@@ -12,5 +12,5 @@ sidebar_category: true
 -->
 {% assign posts = site.categories['Investing Log'] %}
 {% for post in posts %}
-  {% include archive-single-custom.html type=page.entries_layout %}
+  {% include archive-single-category.html type=page.entries_layout %}
 {% endfor %}
