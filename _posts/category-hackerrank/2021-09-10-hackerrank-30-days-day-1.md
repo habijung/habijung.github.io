@@ -1,5 +1,5 @@
 ---
-title: "[HackerRank] Day 0: Hello, World."
+title: "[HackerRank] Day 1: Data Types"
 tagline: "30 Days of Code"
 categories:
   - HackerRank
@@ -13,8 +13,8 @@ header:
 toc: true
 toc_label: "Contents"
 toc_sticky: true
-date: 2021-09-10T00:23
-last_modified_at: 2021-09-10T00:47
+date: 2021-09-10T00:52
+last_modified_at: 2021-09-10T00:52
 ---
 
 
@@ -25,26 +25,25 @@ last_modified_at: 2021-09-10T00:47
 </div>
 
 
-## [HackerRank] Day 0: Hello, World.
+## [HackerRank] Day 1: Data Types
 
-**Problem** [&#x1F517;](https://www.hackerrank.com/challenges/30-hello-world/problem){: target="_blank"}
+**Problem** [&#x1F517;](https://www.hackerrank.com/challenges/30-data-types/problem){: target="_blank"}
 
 **Sample Input**
 
 ```
-Welcome to 30 Days of Code!
+12
+4.0
+is the best place to learn and practice coding!
 ```
 
 **Sample Output**
 
 ```
-Hello, World.
-Welcome to 30 Days of Code!
+16
+8.0
+HackerRank is the best place to learn and practice coding!
 ```
-
-**Explanation**
-
-On the first line, we print the string literal `Hello, World.`. On the second line, we print the contents of the **_inputString_** variable which, for this sample case, happens to be Welcome to `30 Days of Code!`. If you do not print the variable's contents to stdout, you will not pass the hidden test case.
 
 
 ## Solution
