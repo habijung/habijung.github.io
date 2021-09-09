@@ -1,0 +1,58 @@
+---
+layout: splash
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.3"
+  overlay_image: /assets/img/img-home/home-main-1600x1200.jpg
+  actions:
+    - label: "About"
+      url: "/about/"
+  caption: "© 2020 Iceland by [habijung](https://habijung.github.io)"
+excerpt: "Thanks for visiting my blog<br>Check my profile & blog description here"
+intro: 
+  - excerpt: 'Welcome to Blog **:: BIN_ ::**<br>I hope you get the information you want my blog.<br>If you have any questions, please contact me, **<habijnug0@gmail.com>**'
+
+feature_row:
+  - image_path: /assets/img/img-home/home-gallery-1-600x400.jpg
+    alt: "home-gallery-1"
+    title: "Computer Graphics"
+    excerpt: "Interested in **Computer Graphics**, **3D Modeling**, etc."
+
+  - image_path: /assets/img/img-home/home-gallery-2-600x400.jpg
+    alt: "home-gallery-2"
+    title: "Music"
+    excerpt: "Enjoy playing the **Flute**, and love **Orchestra** activites."
+
+  - image_path: /assets/img/img-home/home-gallery-3-600x400.jpg
+    alt: "home-gallery-3"
+    title: "Investment"
+    excerpt: "Being **Financially Independent**"
+
+feature_row2:
+  - image_path: /assets/img/img-home/home-menu-1-600x400.jpg
+    image_caption: "[&#x1F517;](https://www.freepik.com/pch-vector)"
+    alt: "home-menu-1"
+    title: "Read All Posts"
+    excerpt: 'You can read **all the posts** on my blog by clicking the **Posts** button below.'
+    url: "/posts/"
+    btn_label: "Posts"
+    btn_class: "btn--primary"
+
+feature_row3:
+  - image_path: /assets/img/img-home/home-menu-3-600x400.jpg
+    # image_caption: "[&#x1F517;](https://www.freepik.com/pikisuperstar)"
+    alt: "home-menu-2"
+    title: "See Investment Diary & Portfolio"
+    excerpt: 'You can see **Investment Diary** and **Portfolio** on my blog by clicking the **Investing** button below.'
+    url: "/categories/dividend/"
+    btn_label: "Investing"
+    btn_class: "btn--primary"
+---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}
