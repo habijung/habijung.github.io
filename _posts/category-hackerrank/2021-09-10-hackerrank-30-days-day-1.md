@@ -45,19 +45,46 @@ is the best place to learn and practice coding!
 HackerRank is the best place to learn and practice coding!
 ```
 
+**Explanation**
+
+When we sum the integers **4** and **12**, we get the integer **16**.
+When we sum the floating-point numbers **4.0** and **4.0**, we get **8.0**.
+When we concatenate HackerRank with `is the best place to learn and practice coding!`, we get `HackerRank is the best place to learn and practice coding!`.
+
 
 ## Solution
 
 ```cpp
-#include <iostream>
-#include <string>
-using namespace std;
-
 int main() {
-    ...
-    cout << "Hello, World." << endl;
-    cout << input_string << endl;
+    ...    
+    int i2;
+    double d2;
+    string s2, tmp;
+
+    // Get line and convert each data type
+    getline(cin, tmp);
+    i2 = stoi(tmp);
+    
+    getline(cin, tmp);
+    d2 = stod(tmp);
+    
+    getline(cin, s2);
+    
+    // output 1
+    cout << i + i2 << endl;
+
+    // output 2
+    cout << fixed;
+    cout.precision(1);
+    cout << d + d2 << endl;
+    
+    // output 3
+    cout << s + s2 << endl;
 
     return 0;
 }
 ```
+
+`stoi(s)`과 `stod(s)`를 사용해서 `string`을 `int`와 `double`로 각각 변환하였다.
+
+`cout << fixed;`와 `cout.precision(x);`를 사용해서 소수점을 고정하고 1자리로 표기하였다.
