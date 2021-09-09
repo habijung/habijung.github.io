@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<nav class="breadcrumbs">
+  <ol>
+    <li>
+      <a href="/"><span>{{ site.data.ui-text[site.locale].breadcrumb_home_label | default: "Home" }}</span></a>
+    </li>
+    <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
+    <li class="current">{{ page.title }}</li>
+  </ol>
+</nav>
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+    {{ content }}
+  </div>
+</div>
