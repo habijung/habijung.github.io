@@ -1,5 +1,5 @@
 ---
-title: "[HackerRank] Day 1: Data Types"
+title: "[HackerRank] Day 2: Operators"
 tagline: "30 Days of Code"
 categories:
   - HackerRank
@@ -13,8 +13,8 @@ header:
 toc: true
 toc_label: "Contents"
 toc_sticky: true
-date: 2021-09-10T00:52
-last_modified_at: 2021-09-10T00:52
+date: 2021-09-10T00:10
+last_modified_at: 2021-09-10T01:10
 ---
 
 
@@ -25,66 +25,53 @@ last_modified_at: 2021-09-10T00:52
 </div>
 
 
-## [HackerRank] Day 1: Data Types
+## [HackerRank] Day 2: Operators
 
-**Problem** [&#x1F517;](https://www.hackerrank.com/challenges/30-data-types/problem){: target="_blank"}
+**Problem** [&#x1F517;](https://www.hackerrank.com/challenges/30-operators/problem){: target="_blank"}
 
 **Sample Input**
 
 ```
-12
-4.0
-is the best place to learn and practice coding!
+12.00
+20
+8
 ```
 
 **Sample Output**
 
 ```
-16
-8.0
-HackerRank is the best place to learn and practice coding!
+15
 ```
 
 **Explanation**
 
-When we sum the integers **4** and **12**, we get the integer **16**.
-When we sum the floating-point numbers **4.0** and **4.0**, we get **8.0**.
-When we concatenate HackerRank with `is the best place to learn and practice coding!`, we get `HackerRank is the best place to learn and practice coding!`.
+Given:
+
+**_meal_cost_ = 12**, **_tip_percent_ = 20**, **_tax_percent_ = 8**
+
+Calculations:
+
+**_tip_ = 12 * (20 / 100) = 2.4**
+
+**_tax_ = 12 * (8 / 100) = 0.96**
+
+**_total_cost_ = _meal_cost_ + _tip_ + _tax_ = 12 + 2.4 + 0.96 = 15.36**
+
+**_round(total_cost)_ = 15**
+
+We round **_total_cost_** to the nearest integer and print the result, **15**.
 
 
 ## Solution
 
 ```cpp
-int main() {
-    ...    
-    int i2;
-    double d2;
-    string s2, tmp;
-
-    // Get line and convert each data type
-    getline(cin, tmp);
-    i2 = stoi(tmp);
+void solve(double meal_cost, int tip_percent, int tax_percent) {
+    double tip = meal_cost * tip_percent / 100;
+    double tax = meal_cost * tax_percent / 100;
+    double total_cost = meal_cost + tip + tax;
     
-    getline(cin, tmp);
-    d2 = stod(tmp);
-    
-    getline(cin, s2);
-    
-    // output 1
-    cout << i + i2 << endl;
-
-    // output 2
-    cout << fixed;
-    cout.precision(1);
-    cout << d + d2 << endl;
-    
-    // output 3
-    cout << s + s2 << endl;
-
-    return 0;
+    cout << (int)round(total_cost) << endl;
 }
 ```
 
-`stoi(s)`과 `stod(s)`를 사용해서 `string`을 `int`와 `double`로 각각 변환하였다.
-
-`cout << fixed;`와 `cout.precision(x);`를 사용해서 소수점을 고정하고 1자리로 표기하였다.
+`round(total_cost)`로 round 조건을 해결하면서 `(int)`를 사용해서 double을 int로 변환한다.
