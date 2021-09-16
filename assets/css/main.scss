@@ -9,8 +9,8 @@ $color-theme: #70CAC3;
 
 /* font settings
    https://evenharder.github.io/blog/jekyll-change-fonts/ */
-$sans-serif: 'Noto Sans KR';
-$monospace: 'Ubuntu Mono';
+$sans-serif: "Helvetica Neue";
+$monospace: "Ubuntu Mono";
 
 
 /* sidebar grid size */
@@ -23,7 +23,7 @@ $right-sidebar-width-wide: 250px !default;   // default: 400px;
 @charset "utf-8";
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes";                                                             // main partials
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);          // google font
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);          // Google font API
 
 
 /* font size settings
@@ -42,6 +42,11 @@ html {
     @include breakpoint($x-large) {
       font-size: 18px; // default: 22px;
     }
+}
+
+p {
+  font-family: "AppleSDGothicNeo";
+  // font-family: "RIDIBatang";
 }
 
 
@@ -127,13 +132,15 @@ html {
 }
 
 .greedy-nav a {
-  color: #333;
+  color: #3d4144;
 }
 
 .masthead__menu-item a {
-  transition: all 1.0s;
+  transition: all 0.4s;
   margin: auto 5px;
   padding: 0.3rem 0.7rem;
+  font-weight: bold;
+  color: #3d4144;
 }
 
 .masthead__menu-item a:after {
@@ -163,9 +170,9 @@ html {
 
 .masthead__menu-item a:hover:after {
   z-index: -10;
-  animation: fill 0.5s forwards;
-  -webkit-animation: fill 0.5s forwards;
-  -moz-animation: fill 0.5s forwards;
+  animation: fill 0.4s forwards;
+  -webkit-animation: fill 0.4s forwards;
+  -moz-animation: fill 0.4s forwards;
   opacity: 1;
 }
 
@@ -315,4 +322,32 @@ a {
       border-color: $color-theme;
     }
   }
+}
+
+
+/* font import */
+@font-face {
+  font-family: 'RIDIBatang';
+  src: url('/assets/fonts/RIDIBatang/RIDIBatang.eot');
+  src: url('/assets/fonts/RIDIBatang/RIDIBatang.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/RIDIBatang/RIDIBatang.woff2') format('woff2'),
+       url('/assets/fonts/RIDIBatang/RIDIBatang.woff') format('woff'),
+       url('/assets/fonts/RIDIBatang/RIDIBatang.ttf') format('truetype'),
+       url('/assets/fonts/RIDIBatang/RIDIBatang.svg#RIDIBatang') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AppleSDGothicNeo';
+  src: url('/assets/fonts/AppleSDGothicNeo/AppleSDGothicNeoR00.eot');
+  src: url('/assets/fonts/AppleSDGothicNeo/AppleSDGothicNeoR00.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/AppleSDGothicNeo/AppleSDGothicNeoR00.woff2') format('woff2'),
+       url('/assets/fonts/AppleSDGothicNeo/AppleSDGothicNeoR00.woff') format('woff'),
+       url('/assets/fonts/AppleSDGothicNeo/AppleSDGothicNeoR00.ttf') format('truetype'),
+       url('/assets/fonts/AppleSDGothicNeo/AppleSDGothicNeoR00.svg#AppleSDGothicNeoR00') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }

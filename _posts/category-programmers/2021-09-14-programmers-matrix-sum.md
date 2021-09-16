@@ -94,7 +94,7 @@ val y = x.updated(0, 100)    # Vector(100, 2, 1, 2)
         ...
 ```
 
-**return** 형식이 `Vector[Vector[Int]]`이고, vector 초기화를 위해서 `**scala.collection.immutable.Vector.empty**`를 사용했다. 이 초기화 방법은 정해진 타입에 따라 empty vector를 만들어 준다. 빈 vector를 따로 만들어주면 뒤에 다른 vector를 추가할 때 앞에 빈 vector는 그래도 정보가 남아있으니 empty를 사용해서 빈 공간만 만들어준 것이다.
+**return** 형식이 **`Vector[Vector[Int]]`**이고, vector 초기화를 위해서 **`scala.collection.immutable.Vector.empty`**를 사용했다. 이 초기화 방법은 정해진 타입에 따라 empty vector를 만들어 준다. 빈 vector를 따로 만들어주면 뒤에 다른 vector를 추가할 때 앞에 빈 vector는 그래도 정보가 남아있으니 empty를 사용해서 빈 공간만 만들어준 것이다.
 
 ```scala
         ...
