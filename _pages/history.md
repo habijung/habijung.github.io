@@ -29,5 +29,5 @@ sidebar_category: true
 
 1. Post domain registration
 2. Post CSS update log & code
-3. Register search console at Naver, Daum
-4. Add statistic analytics with Google
+3. Add statistic analytics with Google
+4. Set blog theme change button
