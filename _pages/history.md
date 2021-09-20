@@ -27,7 +27,6 @@ sidebar_category: true
 
 ## Blog Updating Task
 
-1. Post domain registration
 2. Post CSS update log & code
 3. Add statistic analytics with Google
 4. Set blog theme change button
