@@ -1,7 +1,7 @@
 ---
 title: "[프로그래머스] 직사각형 별찍기"
 tagline: "[programmers] Rectangle Star"
-classes: # wide
+classes: wide
 categories:
   - programmers
 tags:

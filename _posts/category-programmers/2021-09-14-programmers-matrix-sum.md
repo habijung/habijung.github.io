@@ -1,6 +1,7 @@
 ---
 title: "[프로그래머스] 행렬의 덧셈 (Scala)"
 tagline: "[programmers] Matrix Sum (Scala)"
+classes: wide
 categories:
   - programmers
 tags:

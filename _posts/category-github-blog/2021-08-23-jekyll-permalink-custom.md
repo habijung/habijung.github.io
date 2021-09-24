@@ -1,7 +1,7 @@
 ---
 title: "[GitHub Blog] Jekyll Permalink Custom with Placeholders"
 tagline: "Custom post permalink by _config.yml"
-classes: # wide
+classes: wide
 categories:
   - GitHub Blog
 tags:

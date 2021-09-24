@@ -1,6 +1,7 @@
 ---
 title: "[HackerRank] Day 1: Data Types"
 tagline: "30 Days of Code"
+classes: wide
 categories:
   - HackerRank
 tags:

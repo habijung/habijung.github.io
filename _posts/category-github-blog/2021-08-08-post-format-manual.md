@@ -1,7 +1,7 @@
 ---
 title: "[GitHub Blog] Post Format Manual"
 tagline: "Description blog post format"
-classes: # wide
+classes: wide
 categories:
   - GitHub Blog
 tags:

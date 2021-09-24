@@ -1,6 +1,7 @@
 ---
 title: "[HackerRank] Day 0: Hello, World."
 tagline: "30 Days of Code"
+classes: wide
 categories:
   - HackerRank
 tags:

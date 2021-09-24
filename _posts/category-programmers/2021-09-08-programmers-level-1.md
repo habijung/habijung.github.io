@@ -1,6 +1,7 @@
 ---
 title: "[프로그래머스] Level 1 문제 모음"
 tagline: "[programmers] Level 1 Problem Collection"
+classes: wide
 categories:
   - programmers
 tags:
