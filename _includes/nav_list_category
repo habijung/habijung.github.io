@@ -1,6 +1,37 @@
 <!-- post counts calculation -->
 {% assign counts = site.posts | size %}
 
+
+<!-- Category format
+    - categories title <span>
+    <span class="nav__sub-title">Title</span>
+
+    - category name
+    <ul>
+        - link each category page and display each category posts counts with category[1].size
+        {% for category in site.categories %}
+            {% if category[0] == "Category Ex" %}
+                - set href with downcase
+                <li><a href="/categories/category-ex/" class="">Category Ex ({{ category[1].size }})</a></li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+-->
+
+<!-- Category tree
+    - Blog
+        - History
+        - GitHub Blog
+    - Project
+        - Computer Vision
+    - Algorithm
+        - programmers
+        - HackerRank
+    - Invest
+        - Investing Log
+-->
+
+
 <nav class="nav__list">
     <input id="ac-toc" name="accordion-toc" type="checkbox" />
     <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
@@ -10,29 +41,10 @@
             <span style="font-weight: bold;">&#x1F4C1; All Posts ({{ counts }})</span>
         </li>
         <li>
-            <!-- 
-                - categories title <span> : classification categories
-                - category lists <ul>
-                - category name : example
-
-            <ul>
-                - link each category page and display each category posts counts with category[1].size
-                {% for category in site.categories %}
-                    {% if category[0] == "example" %}
-                        - set href with downcase
-                        <li><a href="/categories/example/" class="">example ({{ category[1].size }})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            -->
-
-            <!-- categories title : Blog -->
             <span class="nav__sub-title">Blog</span>
-            <!-- category name : History -->
             <ul>
                 <li><a href="/history/">History</a></li>
             </ul>
-            <!-- category name : GitHub Blog -->
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "GitHub Blog" %}
@@ -41,9 +53,16 @@
                 {% endfor %}
             </ul>
 
-            <!-- categories title : Algorithm -->
+            <span class="nav__sub-title">Project</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Computer Vision" %}
+                        <li><a href="/categories/computer-vision">Computer Vision ({{ category[1].size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
             <span class="nav__sub-title">Algorithm</span>
-            <!-- category name : programmers -->
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "programmers" %}
@@ -51,7 +70,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            <!-- category name : HackerRank -->
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "HackerRank" %}
@@ -60,9 +78,7 @@
                 {% endfor %}
             </ul>
 
-            <!-- categories title : Invest -->
             <span class="nav__sub-title">Invest</span>
-            <!-- category name : Investing Log -->
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Investing Log" %}
