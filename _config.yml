@@ -267,7 +267,7 @@ asset_url: /assets/
 
 # Scripts Settings
 head_scripts:
-  - /assets/js/chart/chart.min.js
+  - /assets/js/chart.js/chart.min.js
 
 
 # Collections
