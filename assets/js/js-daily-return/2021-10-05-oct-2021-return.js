@@ -2,12 +2,14 @@
 const daysUS = ['10/01(Fri)', '10/04(Mon)'];
 const retValueUS = [0.48, -1.44];
 
-const daysKR = ['10/01(Fri)'];
-const retValueKR = [0.00];
+const daysKR = ['10/01(Fri)', '10/05(Tue)', '10/06(Wed)'];
+const retValueKR = [-1.36, -3.53, 0.35];
 
 
 
-/* chart : returnOctUS */
+/*******************************
+ *     chart : returnOctUS     *
+ *******************************/
 /* setup */
 const dataUS = {
     labels: daysUS,
@@ -78,7 +80,9 @@ const configUS = {
 };
 
 
-/* chart : returnOctKR */
+/*******************************
+ *     chart : returnOctKR     *
+ *******************************/
 /* setup */
 const dataKR = {
     labels: daysKR,
@@ -103,8 +107,8 @@ const configKR = {
     options: {
         scales: {
             yAxes: {
-                suggestedMax: 3,
-                suggestedMin: -3,
+                suggestedMax: 4,
+                suggestedMin: -4,
                 ticks: {
                     beginAtZero: true,
                     stepSize: 1
