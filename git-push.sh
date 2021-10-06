@@ -5,7 +5,8 @@ REMOTE_REPO=$(git remote)
 WORKING_BRANCH=$(git branch --show-current)
 
 echo -e "\n-> git pull ..."
-echo "-> remote : ${REMOTE_REPO} | branch : ${WORKING_BRANCH}"
+echo "-> remote : ${REMOTE_REPO}"
+echo "-> branch : ${WORKING_BRANCH}"
 
 git pull ${REMOTE_REPO} ${WORKING_BRANCH}
 
