@@ -1,6 +1,6 @@
 /* data */
-const daysUS = ['10/01(Fri)', '10/04(Mon)'];
-const retValueUS = [0.48, -1.44];
+const daysUS = ['10/01(Fri)', '10/04(Mon)', '10/05(Tue)', '10/06(Wed)', '10/07(Thu)', '10/08(Fri)'];
+const retValueUS = [0.48, -1.44, 0.92, 0.76, 1.28, -0.52];
 
 const daysKR = ['10/01(Fri)', '10/05(Tue)', '10/06(Wed)'];
 const retValueKR = [-1.36, -3.53, 0.35];
