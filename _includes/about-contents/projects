@@ -1,8 +1,16 @@
 <div class="about-row">
+    <div class="about-row-period">2021.09 -</div>
+    <div class="about-row-content">
+        <strong><a href="https://github.com/habijung/invisibility-cloak" style="text-decoration: none;">Invisibility Cloak</a></strong>, Computer Vision, UNIST<br>
+        <strong><a href="https://github.com/habijung/kiwoom-openapi" style="text-decoration: none;">KIWOOM OpenAPI Daily Return Calculator</a></strong>, Personal Project
+    </div>
+</div>
+
+<div class="about-row">
     <div class="about-row-period">2019.09 - 2019.12</div>
     <div class="about-row-content">
-        <strong>Room Escape Game with OpenGL & Blender</strong>, Computer Graphics, UNIST<br>
-        <strong>Predicting User Sitting Posture Application</strong>, Mobile Computing, UNIST<br>
+        <strong><a href="https://github.com/habijung/room-escape-game" style="text-decoration: none;">Room Escape Game with OpenGL & Blender</a></strong>, Computer Graphics, UNIST<br>
+        <strong><a href="https://github.com/habijung/brightness-recognition-app" style="text-decoration: none;">Predicting User Sitting Posture Application</a></strong>, Mobile Computing, UNIST<br>
         <strong>Pintos Project of Stanford Univ.</strong>, Operating Systems, UNIST
     </div>
 </div>
