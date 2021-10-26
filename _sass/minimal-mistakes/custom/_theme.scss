@@ -1,0 +1,20 @@
+/* Theme Variables */
+:root {
+  --bg-color: #FDFDFD;
+}
+
+[data-theme="dark"] {
+  --bg-color: #333333;
+  --text-color: #FFFFFF;
+}
+
+
+/* Theme Settings */
+html, .greedy-nav {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+nav, p {
+  color: var(--text-color);
+}

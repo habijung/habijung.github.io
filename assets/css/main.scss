@@ -21,9 +21,11 @@ $right-sidebar-width-wide: 250px !default;   // default: 400px;
 
 /* import */
 @charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);          // Google font API
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes";                                                             // main partials
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);          // Google font API
+@import "minimal-mistakes/custom/toggle";
+@import "minimal-mistakes/custom/theme";
 
 
 /* font size settings
@@ -273,10 +275,6 @@ p {
 
 
 /* blog skin settings */
-html, .greedy-nav {
-  background: #FDFDFD;
-}
-
 .btn--user {
   background-color: $color-theme;
   color: #fff;

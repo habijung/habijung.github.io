@@ -13,6 +13,7 @@
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+dark                     : true
 
 # Site Settings
 locale                   : "en-US"
@@ -268,6 +269,8 @@ asset_url: /assets/
 # Scripts Settings
 head_scripts:
   - /assets/js/chart.js/chart.min.js
+footer_scripts:
+  - /assets/js/custom/theme-toggle.js
 
 
 # Collections
