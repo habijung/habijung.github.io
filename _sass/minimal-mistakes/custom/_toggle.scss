@@ -18,10 +18,11 @@
 	+ .tgl-btn {
 		outline: 0;
 		display: block;
-		width: 4em;
-		height: 2em;
+		width: 3em;
+		height: 1.5em;
 		position: relative;
 		cursor: pointer;
+		margin-bottom: 0;
     user-select: none;
 		&:after,
     &:before {
