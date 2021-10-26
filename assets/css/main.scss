@@ -291,10 +291,19 @@ p {
 
 .search__toggle {
   color: $color-theme;
+  margin: 0;
 
   &:hover {
     color: #999;
     transition: all 100ms;
+  }
+}
+
+.navicon {
+  background: $color-theme;
+
+  &::before, &::after {
+    background: $color-theme;
   }
 }
 

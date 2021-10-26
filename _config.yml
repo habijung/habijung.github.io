@@ -269,7 +269,7 @@ asset_url: /assets/
 # Scripts Settings
 head_scripts:
   - /assets/js/chart.js/chart.min.js
-footer_scripts:
+after_footer_scripts:
   - /assets/js/custom/theme-toggle.js
 
 
