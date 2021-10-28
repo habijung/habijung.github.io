@@ -53,7 +53,7 @@
                 {% endfor %}
             </ul>
             <ul>
-                {% for categori in sige.categories %}
+                {% for category in sige.categories %}
                     {% if category[0] == "Travel" %}
                         <li><a href="/categories/travel/">Travel ({{ category[1].size }})</a></li>
                     {% endif %}
