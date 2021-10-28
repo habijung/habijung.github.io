@@ -22,12 +22,14 @@
     - Blog
         - History
         - GitHub Blog
+        - Travel
     - Project
         - Computer Vision
     - Algorithm
-        - programmers
         - HackerRank
+        - programmers
     - Invest
+        - Daily Return
         - Investing Log
 -->
 
@@ -41,6 +43,9 @@
             <span style="font-weight: bold;">&#x1F4C1; All Posts ({{ counts }})</span>
         </li>
         <li>
+            <!-- ==============================================
+                 =                    Blog                    =
+                 ============================================== -->
             <span class="nav__sub-title">Blog</span>
             <ul>
                 <li><a href="/history/">History</a></li>
@@ -60,7 +65,9 @@
                 {% endfor %}
             </ul>
 
-
+            <!-- =================================================
+                 =                    Project                    =
+                 ================================================= -->
             <span class="nav__sub-title">Project</span>
             <ul>
                 {% for category in site.categories %}
@@ -70,15 +77,10 @@
                 {% endfor %}
             </ul>
 
-
+            <!-- ===================================================
+                 =                    Algorithm                    =
+                 =================================================== -->
             <span class="nav__sub-title">Algorithm</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "programmers" %}
-                        <li><a href="/categories/programmers/">programmers ({{ category[1].size }})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "HackerRank" %}
@@ -86,20 +88,29 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "programmers" %}
+                        <li><a href="/categories/programmers/">programmers ({{ category[1].size }})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
 
-
+            <!-- ================================================
+                 =                    Invest                    =
+                 ================================================ -->
             <span class="nav__sub-title">Invest</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Investing Log" %}
-                        <li><a href="/categories/investing-log/">Investing Log ({{ category[1].size }})</a></li>
+                    {% if category[0] == "Daily Return" %}
+                        <li><a href="/categories/daily-return/">Daily Return ({{ category[1].size }})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Daily Return" %}
-                        <li><a href="/categories/daily-return/">Daily Return ({{ category[1].size }})</a></li>
+                    {% if category[0] == "Investing Log" %}
+                        <li><a href="/categories/investing-log/">Investing Log ({{ category[1].size }})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
