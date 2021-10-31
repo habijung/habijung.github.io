@@ -2,34 +2,37 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-
-/* theme color : Downy #70CAC3 */
-$color-theme: #70CAC3;
-
-
-/* font settings
-   https://evenharder.github.io/blog/jekyll-change-fonts/ */
+/* ==========================================================================
+   font settings
+   https://evenharder.github.io/blog/jekyll-change-fonts/
+   ========================================================================== */
 $sans-serif: "Helvetica Neue";
 $monospace: "Ubuntu Mono";
 
 
-/* sidebar grid size */
+/* ==========================================================================
+   sidebar grid size
+   ========================================================================== */
 $right-sidebar-width-narrow: 150px !default; // default: 200px;
 $right-sidebar-width: 200px !default;        // default: 300px;
 $right-sidebar-width-wide: 250px !default;   // default: 400px;
 
 
-/* import */
+/* ==========================================================================
+   import
+   ========================================================================== */
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);          // Google font API
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes";                                                             // main partials
 @import "minimal-mistakes/custom/toggle";
-@import "minimal-mistakes/custom/theme";
+@import "minimal-mistakes/custom/color";
 
 
-/* font size settings
-   https://github.com/mmistakes/minimal-mistakes/issues/1219 */
+/* ==========================================================================
+   font size settings
+   https://github.com/mmistakes/minimal-mistakes/issues/1219
+   ========================================================================== */
 html {
     font-size: 16px; // default: 16px;
   
@@ -52,13 +55,17 @@ p {
 }
 
 
-/* code highlight ```text``` settings */
+/* ==========================================================================
+   code highlight ```text``` settings
+   ========================================================================== */
 .highlight {
     font-family: $monospace;
     font-size: 1.05em;
 }
 
-/* code inline `text` settings */
+/* ==========================================================================
+   code inline `text` settings
+   ========================================================================== */
 .language-plaintext {
     font-family: $monospace;
     font-size: 1.01em;
@@ -66,29 +73,33 @@ p {
 }
 
 
-/* deactivate post title underline */
+/* ==========================================================================
+   deactivate post title underline
+   ========================================================================== */
 .archive a {
   color: inherit;
   text-decoration: none;
 }
 
 .archive a:hover {
-  color: $color-theme;
+  color: $sign-color;
 }
 
 .toc__menu a {
   &:hover {
     text-decoration: none;
-    color: $color-theme;
+    color: $sign-color;
   }
 }
 
 .toc .nav__title {
-  background: $color-theme;
+  background: $sign-color;
 }
 
 
-/* sidebar option */
+/* ==========================================================================
+   sidebar option
+   ========================================================================== */
 .sidebar {
   opacity: 1;
   border-right: 1px solid #F3F3F3;
@@ -98,7 +109,7 @@ p {
   margin: 5px auto;
 
   &:hover {
-    color: $color-theme;
+    color: $sign-color;
   }
 }
 
@@ -118,27 +129,38 @@ p {
 
     @include breakpoint($large) {
       padding: 3px;
-      border: 2px solid $color-theme;
+      border: 2px solid $sign-color;
     }
   }
 }
 
 .author__urls a:hover {
     text-decoration: none;
-    color: $color-theme;
+    color: $sign-color;
     transition-duration: 10ms;
 }
 
 
-/* navigation fill */
+/* ==========================================================================
+   navigation fill
+   ========================================================================== */
 .greedy-nav .visible-links a:before {
   /* remove original animation */
-  background: $color-theme;
+  background: $sign-color;
   height: 0;
 }
 
-.greedy-nav a {
-  color: #3d4144;
+.greedy-nav {
+  background: var(--bg-color);
+  color: var(--masthead-color);
+
+  a {
+    color: var(--masthead-color);
+  }
+
+  a:hover {
+    color: var(--masthead-hover-color);
+  }
 }
 
 .masthead__menu-item a {
@@ -146,7 +168,7 @@ p {
   margin: auto 5px;
   padding: 0.3rem 0.7rem;
   font-weight: bold;
-  color: #3d4144;
+  color: var(--masthead-color);
 }
 
 .masthead__menu-item a:after {
@@ -158,7 +180,7 @@ p {
   width: 0%;
   content: "";
   color: transparent;
-  background: #FFF;
+  background: var(--bg-white-color);
   height: 0;
 }
 
@@ -170,7 +192,7 @@ p {
 }
 
 .masthead__menu-item a:hover {
-  color: #FFF;
+  color: var(--text-white-color);
   z-index: 1;
 }
 
@@ -194,12 +216,14 @@ p {
   100% {
     width: 100%;
     height: 100%;
-    background: $color-theme;
+    background: $sign-color;
   }
 }
 
 
-/* About page settings */
+/* ==========================================================================
+   About page settings
+   ========================================================================== */
 .page__about__content {
   h2:nth-child(1) {
     margin-top: 20px;
@@ -254,7 +278,9 @@ p {
 }
 
 
-/* Main page settings */
+/* ==========================================================================
+   Main page settings
+   ========================================================================== */
 .archive__item-teaser {
   border: 1px solid #999;
   box-shadow: 5px 5px 10px #666;
@@ -274,42 +300,53 @@ p {
 }
 
 
-/* blog skin settings */
+/* ==========================================================================
+   blog skin settings
+   ========================================================================== */
+html, body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+nav, p {
+  color: var(--text-color);
+}
+
 .btn--user {
-  background-color: $color-theme;
-  color: #fff;
+  background-color: $sign-color;
+  color: var(--text-white-color);
 
   &:visited {
-    color: #fff;
+    color: var(--text-white-color);
   }
 
   &:hover {
-    background-color: mix(#000, $color-theme, 20%);
-    color: #fff;
+    background: var(--primary-hover-color);
+    color: var(--text-white-color);
   }
 }
 
 .search__toggle {
-  color: $color-theme;
+  color: $sign-color;
   margin: 0;
 
   &:hover {
-    color: #999;
+    color: var(--primary-hover-color);
     transition: all 100ms;
   }
 }
 
 .navicon {
-  background: $color-theme;
+  background: $sign-color;
 
   &::before, &::after {
-    background: $color-theme;
+    background: $sign-color;
   }
 }
 
 .page__footer {
-  background: $color-theme;
-  color: #333;
+  background: $sign-color;
+  color: var(--page-footer-color);
 }
 
 a {
@@ -321,19 +358,25 @@ a {
 }
 
 .page__footer a:hover {
-  color: #000;
+  color: var(--page-footer-hover-color);
   text-decoration-line: none;  
 }
 
 
-/* pagination button settings */
+/* ==========================================================================
+   pagination button settings
+   ========================================================================== */
 .pagination {
   display: flex;
   align-items: center;
   justify-content: center;
 
-  a {
-    color: mix(#000, $color-theme, 20%);
+  li a.current.disabled {
+    background: var(--primary-color);
+  }
+
+  li a:hover {
+    color: var(--primary-color);
   }
 
   &--pager {
@@ -342,14 +385,16 @@ a {
 
     &:hover {
       z-index: 1;
-      background: $color-theme;
-      border-color: $color-theme;
+      background: $sign-color;
+      border-color: $sign-color;
     }
   }
 }
 
 
-/* font import */
+/* ==========================================================================
+   font import
+   ========================================================================== */
 @font-face {
   font-family: 'RIDIBatang';
   src: url('/assets/fonts/RIDIBatang/RIDIBatang.eot');
