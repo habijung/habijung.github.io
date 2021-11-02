@@ -50,8 +50,8 @@ const configUS = {
     options: {
         scales: {
             yAxes: {
-                suggestedMax: 3,
-                suggestedMin: -3,
+                suggestedMax: 5,
+                suggestedMin: -2,
                 ticks: {
                     beginAtZero: true,
                     stepSize: 1
@@ -124,7 +124,7 @@ const configKR = {
         scales: {
             yAxes: {
                 suggestedMax: 5,
-                suggestedMin: -5,
+                suggestedMin: -4,
                 ticks: {
                     beginAtZero: true,
                     stepSize: 1
