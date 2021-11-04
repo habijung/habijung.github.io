@@ -23,6 +23,7 @@ sidebar_category: true
 | Apply comments by [utterances](https://utteranc.es/){: target="_blank"}                                | 08.24.2021      |
 | Change blog skin color #70CAC3                                                                         | 08.31.2021      |
 | Apply pagination & year pages to posts page                                                            | 09.09.2021      |
+| Apply blog dark mode toggle button                                                                     | 10.31.2021      |
 
 
 ## Blog Updating Task
