@@ -70,6 +70,9 @@
                  ================================================= -->
             <span class="nav__sub-title">Project</span>
             <ul>
+                <li><a href="/all-projects/">All Projects</a></li>
+            </ul>
+            <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Computer Vision" %}
                         <li><a href="/categories/computer-vision">Computer Vision ({{ category[1].size }})</a></li>
